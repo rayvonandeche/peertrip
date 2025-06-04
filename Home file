@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOURS AND TRIPS</title>
+    <meta name="description" content="Discover amazing tour packages and travel experiences worldwide">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ExploreWorld</div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero">
+            <h1>Discover our about packages</h1>
+            <p>Explore breathtaking destinations with our expertly crafted tour packages tailored to your travel style.</p>
+            <a href="#" class="btn">Explore Tours</a>
+            
+            <div class="search-box">
+                <input type="text" placeholder="Destination">
+                <select>
+                    <option value="">Tour Type</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="cultural">Cultural</option>
+                    <option value="beach">Beach</option>
+                    <option value="wildlife">Wildlife</option>
+                    <option value="Entertainment">Entertainment</option>
+                </select>
+                <input type="date" placeholder="Date">
+                <button class="btn">Search Tours</button>
+            </div>
+        </div>
+    </header>
+    
+    <section class="popular-tours">
+        <div class="section-title">
+            <h2>Popular Tours</h2>
+            <p>Check out our most popular tour packages loved by travelers worldwide</p>
+        </div>
+        
+        <div class="tours">
+            <div class="tour-card">
+                <div class="tour-img">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bali Adventure">
+                </div>
+                <div class="tour-info">
+                    <h3>Bali Cultural Adventure</h3>
+                    <p>7 days exploring Bali's rich culture, temples, and natural wonders</p>
+                    <div class="tour-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 7 Days</span>
+                        <span>$1,299</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tour-card">
+                <div class="tour-img">
+                    <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Safari Tour">
+                </div>
+                <div class="tour-info">
+                    <h3>African Safari Experience</h3>
+                    <p>10 days wildlife safari in Kenya and Tanzania's best national parks</p>
+                    <div class="tour-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 10 Days</span>
+                        <span>$3,499</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tour-card">
+                <div class="tour-img">
+                    <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="European Tour">
+                </div>
+                <div class="tour-info">
+                    <h3>European Highlights</h3>
+                    <p>14 days through Paris, Rome, Barcelona and more iconic cities</p>
+                    <div class="tour-meta">
+                        <span><i class="fas fa-calendar-alt"></i> 14 Days</span>
+                        <span>$2,799</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="why-choose-us">
+        <div class="section-title">
+            <h2>Why Choose Us</h2>
+            <p>We're committed to providing exceptional travel experiences with these benefits</p>
+        </div>
+        
+        <div class="benefits">
+            <div class="benefit-card">
+                <i class="fas fa-award"></i>
+                <h3>Expert Guides</h3>
+                <p>Our certified guides have extensive knowledge of each destination</p>
+            </div>
+            
+            <div class="benefit-card">
+                <i class="fas fa-heart"></i>
+                <h3>Custom Experiences</h3>
+                <p>Tailor your trip to match your interests and travel style</p>
+            </div>
+            
+            <div class="benefit-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Safety First</h3>
+                <p>Your safety is our top priority at all times</p>
+            </div>
+            
+            <div class="benefit-card">
+                <i class="fas fa-smile"></i>
+                <h3>5-Star Reviews</h3>
+                <p>98% of our travelers rate their experience as excellent</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>ExploreWorld</h3>
+                <p>Creating unforgettable travel experiences since 2010. We specialize in curated tours that showcase the best each destination has to offer.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Booking Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                    <li><a href="#">Visa Information</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Travel St, Adventure City</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@exploreworld.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 ExploreWorld. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
