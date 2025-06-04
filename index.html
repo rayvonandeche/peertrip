@@ -11,12 +11,30 @@
 <header>
     <nav class="floating-navbar">
         <ul>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Peers</a></li>
-            <li><a href="#">Trips</a></li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="#" data-page="Discover" class="nav-link active">Discover</a></li>
+            <li><a href="#" data-page="Peers" class="nav-link">Peers</a></li>
+            <li><a href="#" data-page="Trips" class="nav-link">Trips</a></li>
+            <li><a href="#" data-page="Profile" class="nav-link">Profile</a></li>
         </ul>
     </nav>
 </header>
+<main>
+    <div id="page-content" class="centered-content">
+        <h1>Discover</h1>
+    </div>
+</main>
+<script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Update active class
+            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+            // Update page content
+            const page = this.getAttribute('data-page');
+            document.getElementById('page-content').innerHTML = `<h1>${page}</h1>`;
+        });
+    });
+</script>
 </body>
 </html>

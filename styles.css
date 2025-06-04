@@ -39,7 +39,21 @@ body {
     transition: background 0.2s, color 0.2s;
 }
 
-.floating-navbar a:hover {
+.floating-navbar a:hover,
+.floating-navbar a.active {
     background: #f0f0f0;
     color: #0078d4;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-content h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 500;
 }
