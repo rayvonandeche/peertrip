@@ -19,20 +19,63 @@
     </nav>
 </header>
 <main>
-    <div id="page-content" class="centered-content">
+    <section id="discover-section" class="centered-content page-section">
         <h1>Discover</h1>
-    </div>
+        <p>Welcome to the Discover section! Here you can find new peers and explore trips.</p>
+        <div class="discover-content">
+            <p>Discover new peers and exciting trips to enhance your travel experiences.</p>
+            <button class="explore-button">Explore Now</button>
+        </div>
+    </section>
+    <section id="peers-section" class="centered-content page-section" style="display:none;">
+        <h1>Peers</h1>
+        <p>Connect with peers who share your interests and travel goals.</p>
+        <div class="peers-content">
+            <p>Find like-minded individuals to share your travel experiences with.</p>
+            <button class="connect-button">Connect with Peers</button>
+        </div>
+    </section>
+    <section id="trips-section" class="centered-content page-section" style="display:none;">
+        <h1>Trips</h1>
+        <p>Explore upcoming trips and plan your next adventure.</p>
+        <div class="trips-content">
+            <p>Discover exciting trips and adventures that you can join.</p>
+            <button class="plan-button">Plan Your Trip</button>
+        </div>
+    </section>
+    <section id="profile-section" class="centered-content page-section" style="display:none;">
+        <h1>Profile</h1>
+        <p>Manage your profile and preferences.</p>
+        <div class="profile-content">
+            <p>Update your profile information and preferences to enhance your experience.</p>
+            <button class="edit-profile-button">Edit Profile</button>
+        </div>
+    </section>
 </main>
 <script>
+    const pageMap = {
+        Discover: 'discover-section',
+        Peers: 'peers-section',
+        Trips: 'trips-section',
+        Profile: 'profile-section'
+    };
+
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
-            // Update active class
-            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+
+            document.querySelectorAll('.nav-link').forEach(nav => {
+                nav.classList.remove('active');
+            });
+
             this.classList.add('active');
-            // Update page content
+
             const page = this.getAttribute('data-page');
-            document.getElementById('page-content').innerHTML = `<h1>${page}</h1>`;
+            const sectionId = pageMap[page];
+            document.querySelectorAll('.page-section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'flex';
         });
     });
 </script>

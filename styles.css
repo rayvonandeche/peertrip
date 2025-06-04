@@ -1,7 +1,12 @@
 body {
     font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
+/* Navbar styles */
 .floating-navbar {
     position: fixed;
     top: 30px;
@@ -45,15 +50,98 @@ body {
     color: #0078d4;
 }
 
+/* Section content styles */
 .centered-content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 120px 20px 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-section {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .centered-content h1 {
-    margin: 0;
+    margin: 0 0 20px;
     font-size: 3rem;
+    font-weight: 600;
+    color: #0078d4;
+}
+
+.centered-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Button styles */
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 32px;
+    font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0062ab;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Specific section content styles */
+.discover-content, .peers-content, .trips-content, .profile-content {
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 30px;
+    width: 100%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .floating-navbar {
+        width: 90%;
+        padding: 0 16px;
+    }
+    
+    .floating-navbar ul {
+        gap: 16px;
+    }
+    
+    .floating-navbar a {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+    
+    .centered-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .centered-content p {
+        font-size: 1rem;
+    }
 }
