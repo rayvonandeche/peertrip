@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.floating-navbar {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    border-radius: 32px;
+    padding: 0 32px;
+    z-index: 1000;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.floating-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    height: 56px;
+}
+
+.floating-navbar li {
+    display: inline;
+}
+
+.floating-navbar a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.floating-navbar a:hover {
+    background: #f0f0f0;
+    color: #0078d4;
+}
