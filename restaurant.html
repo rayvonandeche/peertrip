@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurants</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="restaurant.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1><i class="material-icons">restaurant</i> Restaurants</h1>
+    </header>
+
+    <main>
+      <div class="search-bar">
+        <i class="material-icons">search</i>
+        <input type="text" placeholder="Search restaurants...">
+        <div class="filter-btn">
+          <i class="material-icons">filter_list</i>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Quick Filters</h2>
+        <div class="filters">
+          <div class="filter active">All</div>
+          <div class="filter">Italian</div>
+          <div class="filter">Asian</div>
+          <div class="filter">Continental</div>
+          <div class="filter">Local</div>
+        </div>
+      </div>
+
+      <div class="featured-card">
+        <div class="slide-container">
+          <div class="slides-wrapper">
+            <img class="slide" src="https://www.sarovahotels.com/assets/images/Sarova-Stanley-blog.jpg" alt="Sarova hotel">
+            <img class="slide" src="https://theluxuryeditor.com/wp-content/uploads/2023/08/2017-greatplains-mara-plains-11.jpg" alt="Mautamu hotel">
+            <img class="slide" src="https://digital.ihg.com/is/image/ihg/independent--sphc--nairobi-9065423522-2x1?size=700,0" alt="Holiday inn">
+          </div>
+        </div>
+        <div class="overlay">
+          <h3>Peer Trips test</h3>
+          <p>Featured Restaurants</p>
+        </div>
+        <div class="dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Popular Cuisines</h2>
+        <div class="card-list horizontal-scroll">
+          <div class="cuisine-card">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/73/56/fa/caption.jpg?w=900&h=500&s=1" alt="Swahili Cuisine">
+            <div class="content">
+              <h3>Nyama Choma resort</h3>
+              <p>Top Swahili restaurant</p>
+              <span>Biryani, Samosas</span>
+            </div>
+          </div>
+          <div class="cuisine-card">
+            <img src="https://traveltank.com/blog/wp-content/uploads/2022/03/cocoon-maldives.png" alt="Continental">
+            <div class="content">
+              <h3>Sea food</h3>
+              <p>Top sea dishes</p>
+              <span>Trout, Veggies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Recommended Restaurants</h2>
+        <div class="card-list horizontal-scroll">
+          <div class="resto-card">
+            <img src="https://goldrestaurant.co.za/wp-content/uploads/2024/09/Gold-182-scaled.jpg" alt="Lelo Dishes">
+            <div class="rating"><i class="material-icons">star</i> 5.0</div>
+            <div class="content">
+              <h3>Gold Dishes</h3>
+              <p>Traditional Kenyan Dining</p>
+              <div class="footer">
+                <span class="price">KSh 300-800</span>
+                <span class="tag">restaurant</span>
+              </div>
+            </div>
+          </div>
+          <div class="resto-card">
+            <img src="https://www.masaimara.com/assets/img/masai-mara.jpg" alt="Modern Cafe">
+            <div class="rating"><i class="material-icons">star</i> 4.5</div>
+            <div class="content">
+              <h3>Maasai Mara resort</h3>
+              <p>Contemporary Dining</p>
+              <div class="footer">
+                <span class="price">KSh 450-900</span>
+                <span class="tag">cafe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="restaurant.js"></script>
+</body>
+</html>

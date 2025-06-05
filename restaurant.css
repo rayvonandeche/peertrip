@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 1.5em;
+  gap: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.search-bar input {
+  border: none;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.filter-btn {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.filter {
+  background-color: #eee;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.filter.active {
+  background-color: #333;
+  color: white;
+}
+
+.featured-card {
+  position: relative;
+  width: 100%;
+  margin-top: 25px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slide-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slides-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.card-list.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.cuisine-card, .resto-card {
+  background-color: #fff;
+  border-radius: 10px;
+  min-width: 200px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cuisine-card img, .resto-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.cuisine-card .content, .resto-card .content {
+  padding: 10px;
+}
+
+.resto-card .rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: gold;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.resto-card .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+}
