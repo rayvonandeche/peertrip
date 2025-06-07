@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Buddies - Peer Trips | Travel Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-compass"></i>
+                    PeerTrip
+                </a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="discover.html">Discover</a>
+                    <a href="peers.html" class="active">Travel Buddies</a>
+                    <a href="trips.html">Trips & Reviews</a>
+                    <a href="ai-assistant.html">AI Assistant</a>
+                    <a href="profile.html">Profile</a>
+                </div>                <div class="auth-buttons">
+                    <a href="#" class="btn login-btn" id="openSignIn">Sign In</a>
+                    <a href="#" class="btn signup-btn" id="openSignUp">Join Free</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Find Your Travel Buddy</h1>
+            <p class="hero-subtitle">Connect with fellow adventurers and explore Kenya together</p>
+            <div class="buddy-search-container">
+                <input type="text" class="buddy-search-input" placeholder="Search by name, interest, or location...">
+                <button class="buddy-search-btn"><i class="fas fa-search"></i> Search</button>
+            </div>
+        </section>
+        <!-- Buddies Section -->
+        <section class="buddies-section">
+            <h2 class="section-title">Featured Buddies</h2>
+            <div class="buddies-grid">
+                <div class="buddy-card">
+                    <img src="girraffe.png" alt="Alex Kimani" class="buddy-avatar">
+                    <div class="buddy-name">Alex Kimani</div>
+                    <div class="buddy-location"><i class="fas fa-map-marker-alt"></i> Nairobi</div>
+                    <div class="buddy-bio">Safari enthusiast, techie, and foodie. Loves Maasai Mara and Diani Beach.</div>
+                    <div class="buddy-tags">
+                        <span class="buddy-tag">Safari</span>
+                        <span class="buddy-tag">Food</span>
+                        <span class="buddy-tag">Tech</span>
+                    </div>
+                    <div class="buddy-actions">
+                        <button class="buddy-btn">View Profile</button>
+                        <button class="buddy-btn">Message</button>
+                    </div>
+                </div>
+                <div class="buddy-card">
+                    <img src="leopard.png" alt="Maria Wanjiru" class="buddy-avatar">
+                    <div class="buddy-name">Maria Wanjiru</div>
+                    <div class="buddy-location"><i class="fas fa-map-marker-alt"></i> Mombasa</div>
+                    <div class="buddy-bio">Beach lover, culture explorer, and group travel organizer. Swahili coast expert.</div>
+                    <div class="buddy-tags">
+                        <span class="buddy-tag">Beach</span>
+                        <span class="buddy-tag">Culture</span>
+                        <span class="buddy-tag">Groups</span>
+                    </div>
+                    <div class="buddy-actions">
+                        <button class="buddy-btn">View Profile</button>
+                        <button class="buddy-btn">Message</button>
+                    </div>
+                </div>
+                <div class="buddy-card">
+                    <img src="rhino.png" alt="John Otieno" class="buddy-avatar">
+                    <div class="buddy-name">John Otieno</div>
+                    <div class="buddy-location"><i class="fas fa-map-marker-alt"></i> Kisumu</div>
+                    <div class="buddy-bio">Nature photographer, birdwatcher, and hiking guide. Lake Victoria local.</div>
+                    <div class="buddy-tags">
+                        <span class="buddy-tag">Photography</span>
+                        <span class="buddy-tag">Birds</span>
+                        <span class="buddy-tag">Hiking</span>
+                    </div>
+                    <div class="buddy-actions">
+                        <button class="buddy-btn">View Profile</button>
+                        <button class="buddy-btn">Message</button>
+                    </div>
+                </div>
+                <div class="buddy-card">
+                    <img src="elephant.png" alt="Grace Muthoni" class="buddy-avatar">
+                    <div class="buddy-name">Grace Muthoni</div>
+                    <div class="buddy-location"><i class="fas fa-map-marker-alt"></i> Nanyuki</div>
+                    <div class="buddy-bio">UX designer, mountain trekker, and conservation volunteer. Mount Kenya is home.</div>
+                    <div class="buddy-tags">
+                        <span class="buddy-tag">UX</span>
+                        <span class="buddy-tag">Mountains</span>
+                        <span class="buddy-tag">Conservation</span>
+                    </div>
+                    <div class="buddy-actions">
+                        <button class="buddy-btn">View Profile</button>
+                        <button class="buddy-btn">Message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- AI Assistant Floating Button -->
+    <a class="ai-assistant-fab" href="ai-assistant.html" title="Chat with KenyaBot">
+        <i class="fas fa-robot"></i>
+    </a>
+    <style>
+        .ai-assistant-fab {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(139,69,19,0.3);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .ai-assistant-fab:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 35px rgba(139,69,19,0.4);
+        }
+        .buddies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .buddy-card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(139,69,19,0.1);
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .buddy-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(139,69,19,0.2);
+        }
+        .buddy-avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid #F4A460;
+        }
+        .buddy-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2C1810;
+            margin-bottom: 0.3rem;
+        }
+        .buddy-location {
+            color: #8B4513;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .buddy-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .buddy-tag {
+            background: #F4A460;
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        .buddy-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .buddy-btn {
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 0.7rem 1.5rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .buddy-btn:hover {
+            background: linear-gradient(135deg, #A0522D, #8B4513);
+            transform: translateY(-2px);
+        }
+    </style>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Peer Trips</h3>
+                <p>A premier travel platform connecting adventurers with authentic local experiences and travel buddies.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Destinations</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Maasai Mara</a></li>
+                    <li><a href="#">Diani Beach</a></li>
+                    <li><a href="#">Mount Kenya</a></li>
+                    <li><a href="#">Lamu Island</a></li>
+                    <li><a href="#">Amboseli</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Travel Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Safari Packages</a></li>
+                    <li><a href="#">Beach Holidays</a></li>
+                    <li><a href="#">Cultural Tours</a></li>
+                    <li><a href="#">Adventure Travel</a></li>
+                    <li><a href="#">Group Tours</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                    <li><a href="#">Safety Guidelines</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Partner With Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Peer Trips Kenya. Crafted by Team Safari Innovators - Making Kenya travel accessible to everyone.</p>
+        </div>    </footer>
+    
+    <!-- Sign In Modal -->
+    <div class="modal-overlay" id="signInModal">
+        <div class="modal">
+            <button class="close-modal" id="closeSignIn">&times;</button>
+            <h2>Sign In</h2>
+            <form class="auth-form">
+                <label for="signin-email">Email</label>
+                <input type="email" id="signin-email" placeholder="Enter your email" required>
+                <label for="signin-password">Password</label>
+                <input type="password" id="signin-password" placeholder="Enter your password" required>
+                <button type="submit" class="modal-btn">Sign In</button>
+            </form>
+            <p class="modal-switch">Don't have an account? <a href="#" id="switchToSignUp">Sign Up</a></p>
+        </div>
+    </div>
+    
+    <!-- Sign Up Modal -->
+    <div class="modal-overlay" id="signUpModal">
+        <div class="modal">
+            <button class="close-modal" id="closeSignUp">&times;</button>
+            <h2>Sign Up</h2>
+            <form class="auth-form">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" placeholder="Enter your email" required>
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" placeholder="Create a password" required>
+                <button type="submit" class="modal-btn">Sign Up</button>
+            </form>
+            <p class="modal-switch">Already have an account? <a href="#" id="switchToSignIn">Sign In</a></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        // Modal logic
+        const signInModal = document.getElementById('signInModal');
+        const signUpModal = document.getElementById('signUpModal');
+        document.getElementById('openSignIn').onclick = () => { signInModal.style.display = 'flex'; };
+        document.getElementById('openSignUp').onclick = () => { signUpModal.style.display = 'flex'; };
+        document.getElementById('closeSignIn').onclick = () => { signInModal.style.display = 'none'; };
+        document.getElementById('closeSignUp').onclick = () => { signUpModal.style.display = 'none'; };
+        document.getElementById('switchToSignUp').onclick = (e) => { e.preventDefault(); signInModal.style.display = 'none'; signUpModal.style.display = 'flex'; };
+        document.getElementById('switchToSignIn').onclick = (e) => { e.preventDefault(); signUpModal.style.display = 'none'; signInModal.style.display = 'flex'; };
+        window.onclick = (e) => {
+            if (e.target === signInModal) signInModal.style.display = 'none';
+            if (e.target === signUpModal) signUpModal.style.display = 'none';
+        };
+    </script>
+</body>
+</html>

@@ -3,81 +3,416 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peer Trips</title>
+    <title>Reviews, Buddies & AI Planning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-    <nav class="floating-navbar">
-        <ul>
-            <li><a href="#" data-page="Discover" class="nav-link active">Discover</a></li>
-            <li><a href="#" data-page="Peers" class="nav-link">Peers</a></li>
-            <li><a href="#" data-page="Trips" class="nav-link">Trips</a></li>
-            <li><a href="#" data-page="Profile" class="nav-link">Profile</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section id="discover-section" class="centered-content page-section">
-        <h1>Discover</h1>
-        <p>Welcome to the Discover section! Here you can find new peers and explore trips.</p>
-        <div class="discover-content">
-            <p>Discover new peers and exciting trips to enhance your travel experiences.</p>
-            <button class="explore-button">Explore Now</button>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-compass"></i>
+                    PeerTrip
+                </a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="discover.html">Discover</a>
+                    <a href="peers.html">Travel Buddies</a>
+                    <a href="trips.html">Trips & Reviews</a>
+                    <a href="ai-assistant.html">AI Assistant</a>
+                    <a href="profile.html">Profile</a>
+                </div>                <div class="auth-buttons">
+                    <a href="#" class="btn login-btn" id="openSignIn">Sign In</a>
+                    <a href="#" class="btn signup-btn" id="openSignUp">Join Free</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="subtitle">Kenya's #1 Travel Community</div>
+            <h1>Explore Kenya Like a Local</h1>
+            <p>Join 450K+ travelers discovering amazing experiences with verified reviews, local buddies, and AI-powered planning</p>
+            <div class="search-container">
+                <input type="text" placeholder="Where to in Kenya? Nairobi, Mombasa, Maasai Mara, Nakuru...">
+                <button class="search-btn"><i class="fas fa-search"></i> Search</button>
+            </div>
         </div>
     </section>
-    <section id="peers-section" class="centered-content page-section" style="display:none;">
-        <h1>Peers</h1>
-        <p>Connect with peers who share your interests and travel goals.</p>
-        <div class="peers-content">
-            <p>Find like-minded individuals to share your travel experiences with.</p>
-            <button class="connect-button">Connect with Peers</button>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">2.3M+</div>
+                <div class="stat-label">Kenya Experiences</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">950K+</div>
+                <div class="stat-label">Verified Reviews</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">450K+</div>
+                <div class="stat-label">Travel Buddies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">AI Travel Assistant</div>
+            </div>
         </div>
     </section>
-    <section id="trips-section" class="centered-content page-section" style="display:none;">
-        <h1>Trips</h1>
-        <p>Explore upcoming trips and plan your next adventure.</p>
-        <div class="trips-content">
-            <p>Discover exciting trips and adventures that you can join.</p>
-            <button class="plan-button">Plan Your Trip</button>
+
+    <!-- Featured Destinations -->
+    <section class="featured-destinations">
+        <div class="section-header">
+            <h2>Top-Rated Kenya Destinations</h2>
+            <p>Discover the most loved places in Kenya, rated by real travelers and enhanced by AI recommendations</p>
+        </div>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="kenya safari.jpeg" alt="Maasai Mara Safari">
+                <div class="card-content">
+                    <h3>Maasai Mara National Reserve</h3>
+                    <p>World's greatest wildlife spectacle during the Great Migration. Experience the Big Five in their natural habitat with expert local guides.</p>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-number">4.8</span>
+                        <span class="review-count">(12,847 reviews)</span>
+                    </div>
+                    <div class="price-from">From KSH 25,000/day</div>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <img src="tropical beach.jpeg" alt="Diani Beach">
+                <div class="card-content">
+                    <h3>Diani Beach, Mombasa</h3>
+                    <p>Pristine white sand beaches with crystal clear waters. Perfect for diving, snorkeling, and experiencing Swahili coastal culture.</p>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-number">4.7</span>
+                        <span class="review-count">(8,924 reviews)</span>
+                    </div>
+                    <div class="price-from">From KSH 8,500/day</div>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <img src="luxury safari.jpeg" alt="Amboseli National Park">
+                <div class="card-content">
+                    <h3>Amboseli National Park</h3>
+                    <p>Iconic views of Mount Kilimanjaro with large elephant herds. Famous for incredible wildlife photography opportunities and Maasai cultural encounters.</p>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-number">4.9</span>
+                        <span class="review-count">(6,733 reviews)</span>
+                    </div>
+                    <div class="price-from">From KSH 18,500/day</div>
+                </div>
+            </div>
         </div>
     </section>
-    <section id="profile-section" class="centered-content page-section" style="display:none;">
-        <h1>Profile</h1>
-        <p>Manage your profile and preferences.</p>
-        <div class="profile-content">
-            <p>Update your profile information and preferences to enhance your experience.</p>
-            <button class="edit-profile-button">Edit Profile</button>
+
+    <!-- Travel Buddies Preview -->
+    <section class="buddies-preview">
+        <div class="section-header">
+            <h2>Connect with Verified Travel Buddies</h2>
+            <p>Meet trusted local guides and fellow travelers for authentic Kenyan experiences</p>
+        </div>
+        <div class="buddy-cards">
+            <div class="buddy-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="James Mwangi" class="buddy-avatar">
+                <div class="buddy-name">James Mwangi</div>
+                <div class="buddy-location">Nairobi • Verified Local Guide</div>
+                <div class="buddy-interests">
+                    <span class="interest-tag">Safari Expert</span>
+                    <span class="interest-tag">Photography</span>
+                    <span class="interest-tag">Culture</span>
+                </div>
+            </div>
+            
+            <div class="buddy-card">
+                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1c3?w=150&h=150&fit=crop&crop=face" alt="Sarah Wanjiku" class="buddy-avatar">
+                <div class="buddy-name">Sarah Wanjiku</div>
+                <div class="buddy-location">Mombasa • Beach Specialist</div>
+                <div class="buddy-interests">
+                    <span class="interest-tag">Diving</span>
+                    <span class="interest-tag">Local Food</span>
+                    <span class="interest-tag">History</span>
+                </div>
+            </div>
+            
+            <div class="buddy-card">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="David Kiprop" class="buddy-avatar">
+                <div class="buddy-name">David Kiprop</div>
+                <div class="buddy-location">Nakuru • Adventure Guide</div>
+                <div class="buddy-interests">
+                    <span class="interest-tag">Hiking</span>
+                    <span class="interest-tag">Wildlife</span>
+                    <span class="interest-tag">Camping</span>
+                </div>
+            </div>
+            
+            <div class="buddy-card">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" alt="Grace Akinyi" class="buddy-avatar">
+                <div class="buddy-name">Grace Akinyi</div>
+                <div class="buddy-location">Kisumu • Cultural Expert</div>
+                <div class="buddy-interests">
+                    <span class="interest-tag">Art & Crafts</span>
+                    <span class="interest-tag">Music</span>
+                    <span class="interest-tag">Markets</span>
+                </div>
+            </div>
         </div>
     </section>
-</main>
-<script>
-    const pageMap = {
-        Discover: 'discover-section',
-        Peers: 'peers-section',
-        Trips: 'trips-section',
-        Profile: 'profile-section'
-    };
 
-    document.querySelectorAll('.nav-link').forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
+    <!-- Team Collaboration Section -->
+    <section class="team-section">
+        <div class="team-header">
+            <h2>Built by Safari Innovators</h2>
+            <p>A passionate team of Kenyan tech innovators creating the future of travel</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <h3>Alex Kimani - Lead Developer</h3>
+                <p>Full-stack engineer specializing in AI integration and user experience design</p>
+            </div>
+            <div class="team-member">
+                <h3>Maria Wanjiru - Product Manager</h3>
+                <p>Travel industry expert focusing on community building and local partnerships</p>
+            </div>
+            <div class="team-member">
+                <h3>John Otieno - Data Scientist</h3>
+                <p>AI/ML specialist developing smart recommendation engines and travel insights</p>
+            </div>
+            <div class="team-member">
+                <h3>Grace Muthoni - UX Designer</h3>
+                <p>Design lead creating intuitive interfaces for seamless travel planning experiences</p>
+            </div>
+        </div>
+    </section>
 
-            document.querySelectorAll('.nav-link').forEach(nav => {
-                nav.classList.remove('active');
-            });
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Peer Trips</h3>
+                <p>A premier travel platform connecting adventurers with authentic local experiences and travel buddies.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Destinations</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Maasai Mara</a></li>
+                    <li><a href="#">Diani Beach</a></li>
+                    <li><a href="#">Mount Kenya</a></li>
+                    <li><a href="#">Lamu Island</a></li>
+                    <li><a href="#">Amboseli</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Travel Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Safari Packages</a></li>
+                    <li><a href="#">Beach Holidays</a></li>
+                    <li><a href="#">Cultural Tours</a></li>
+                    <li><a href="#">Adventure Travel</a></li>
+                    <li><a href="#">Group Tours</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                    <li><a href="#">Safety Guidelines</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Partner With Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Peer Trips Kenya. Crafted by Team Safari Innovators - Making Kenya travel accessible to everyone.</p>
+        </div>
+    </footer>
 
-            this.classList.add('active');
+    <!-- AI Assistant Floating Button -->
+    <a class="ai-assistant-fab" href="ai-assistant.html" title="Ask AI Assistant">
+        <i class="fas fa-robot"></i>
+    </a>
+    <style>
+        .ai-assistant-fab {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(139,69,19,0.3);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .ai-assistant-fab:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 35px rgba(139,69,19,0.4);
+        }
+        .buddy-card, .destination-card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(139,69,19,0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .buddy-card:hover, .destination-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(139,69,19,0.2);
+        }
+        .buddy-avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid #F4A460;
+        }
+        .buddy-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2C1810;
+            margin-bottom: 0.3rem;
+        }
+        .buddy-location {
+            color: #8B4513;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .buddy-interests {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .interest-tag {
+            background: #F4A460;
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        .card-content {
+            padding: 1rem 0 0 0;
+        }
+        .destination-grid, .buddy-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .price-from {
+            color: #8B4513;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+        .search-btn, .book-btn {
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 0.8rem 1.5rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .search-btn:hover, .book-btn:hover {
+            background: linear-gradient(135deg, #A0522D, #8B4513);
+            transform: translateY(-2px);
+        }    </style>
 
-            const page = this.getAttribute('data-page');
-            const sectionId = pageMap[page];
-            document.querySelectorAll('.page-section').forEach(section => {
-                section.style.display = 'none';
-            });
-            document.getElementById(sectionId).style.display = 'flex';
-        });
-    });
-</script>
+    <!-- Sign In Modal -->
+    <div class="modal-overlay" id="signInModal">
+        <div class="modal">
+            <button class="close-modal" id="closeSignIn">&times;</button>
+            <h2>Sign In</h2>
+            <form class="auth-form">
+                <label for="signin-email">Email</label>
+                <input type="email" id="signin-email" placeholder="Enter your email" required>
+                <label for="signin-password">Password</label>
+                <input type="password" id="signin-password" placeholder="Enter your password" required>
+                <button type="submit" class="modal-btn">Sign In</button>
+            </form>
+            <p class="modal-switch">Don't have an account? <a href="#" id="switchToSignUp">Sign Up</a></p>
+        </div>
+    </div>
+    
+    <!-- Sign Up Modal -->
+    <div class="modal-overlay" id="signUpModal">
+        <div class="modal">
+            <button class="close-modal" id="closeSignUp">&times;</button>
+            <h2>Sign Up</h2>
+            <form class="auth-form">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" placeholder="Enter your email" required>
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" placeholder="Create a password" required>
+                <button type="submit" class="modal-btn">Sign Up</button>
+            </form>
+            <p class="modal-switch">Already have an account? <a href="#" id="switchToSignIn">Sign In</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Modal logic
+        const signInModal = document.getElementById('signInModal');
+        const signUpModal = document.getElementById('signUpModal');
+        document.getElementById('openSignIn').onclick = () => { signInModal.style.display = 'flex'; };
+        document.getElementById('openSignUp').onclick = () => { signUpModal.style.display = 'flex'; };
+        document.getElementById('closeSignIn').onclick = () => { signInModal.style.display = 'none'; };
+        document.getElementById('closeSignUp').onclick = () => { signUpModal.style.display = 'none'; };
+        document.getElementById('switchToSignUp').onclick = (e) => { e.preventDefault(); signInModal.style.display = 'none'; signUpModal.style.display = 'flex'; };
+        document.getElementById('switchToSignIn').onclick = (e) => { e.preventDefault(); signUpModal.style.display = 'none'; signInModal.style.display = 'flex'; };
+        window.onclick = (e) => {
+            if (e.target === signInModal) signInModal.style.display = 'none';
+            if (e.target === signUpModal) signUpModal.style.display = 'none';
+        };
+    </script>
 </body>
 </html>
