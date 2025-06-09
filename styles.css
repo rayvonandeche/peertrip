@@ -701,6 +701,218 @@ main {
     line-height: 1.6;
 }
 
+.restaurant-gallery {
+  padding-top: 2rem;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Image Gallery Showcase for Index Page */
+.image-gallery-showcase {
+    padding: 3rem 1.5rem; /* Adjusted padding */
+    background: var(--white);
+    border-radius: 20px;
+    margin-top: 3rem; /* Increased top margin */
+    margin-bottom: 3rem; /* Increased bottom margin */
+    box-shadow: 0 8px 30px rgba(139, 69, 19, 0.12); /* Slightly enhanced shadow */
+}
+
+/* Assuming you might reuse .section-header or have a specific one */
+.image-gallery-showcase .section-header {
+    margin-bottom: 2.5rem;
+    text-align: center; /* Ensure title is centered */
+}
+
+.image-gallery-showcase .section-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; /* Consistent with other section titles */
+    color: var(--primary-brown);
+    margin-bottom: 0.75rem;
+}
+
+.image-gallery-showcase .section-header p {
+    color: var(--gray);
+    font-size: 1.1rem;
+    max-width: 700px; /* Limit width of subtitle */
+    margin: 0 auto; /* Center subtitle */
+}
+
+.gallery-grid-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-item-index {
+    background-color: var(--white); /* Ensure background for shadow visibility */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; /* For potential caption alignment */
+    flex-direction: column; /* Stack image and potential caption */
+}
+
+.gallery-item-index:hover {
+    transform: translateY(-6px); /* Slightly more lift */
+    box-shadow: 0 12px 35px rgba(139, 69, 19, 0.18); /* Enhanced hover shadow */
+}
+
+.gallery-item-index img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease; /* Slightly slower image zoom for smoother effect */
+}
+
+.gallery-item-index:hover img {
+    transform: scale(1.08); /* Slightly more zoom */
+}
+
+/* Optional: Styles for captions if you add them later */
+.gallery-item-index .caption {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+    background-color: #f9f9f9; /* Light background for caption area */
+}
+
+/* Advertisements Section */
+.advertisements-section {
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 4rem 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(139, 69, 19, 0.1);
+}
+
+.advertisements-section .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.advertisements-section .section-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--primary-brown);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.advertisements-section .section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--primary-brown);
+    border-radius: 2px;
+}
+
+.advertisements-section .section-header p {
+    color: var(--gray);
+    font-size: 1.1rem;
+}
+
+.ad-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.ad-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(139, 69, 19, 0.2);
+}
+
+.ad-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.ad-card:hover img {
+    transform: scale(1.05);
+}
+
+.ad-btn {
+    background: linear-gradient(135deg, var(--primary-brown), var(--secondary-brown));
+    color: var(--white);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.ad-btn:hover {
+    background: linear-gradient(135deg, var(--secondary-brown), var(--primary-brown));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(139,69,19,0.3);
+}
+
+.ad-content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.ad-content h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--primary-brown);
+    margin-bottom: 0.5rem;
+}
+
+.ad-content p {
+    color: var(--gray);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .advertisements-section {
+        padding: 3rem 1rem;
+        margin: 2rem 0;
+    }
+    
+    .advertisements-section .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .ads-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
@@ -1314,7 +1526,7 @@ main {
 
 .buddy-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(139,69,19,0.2);
+    box-shadow: 0 15px 40px rgba(139, 69, 19, 0.2);
 }
 
 .buddy-avatar {
@@ -1391,7 +1603,6 @@ main {
     margin: 2rem auto;
     display: flex;
     gap: 1rem;
-    padding: 0 1rem;
 }
 
 .buddy-search-input {
@@ -1880,4 +2091,4 @@ main {
         min-width: 90vw;
         padding: 1.5rem 0.5rem 1.5rem 0.5rem;
     }
-} 
+}
