@@ -217,6 +217,12 @@ app.post('/api/bookings', authenticateToken, async (req, res) => {
     } = req.body;
 
     // Map new format to old format for consistency
+    const rawBookingDate = bookingDate || startDate || new Date().toISOString();
+    const formattedBookingDate = new Date(rawBookingDate)
+      .toISOString()
+      .slice(0, 19)
+      .replace('T', ' ');
+
     const mappedData = {
       tripId: tripId || destinationId?.toString() || 'TRIP_' + Date.now(),
       tripTitle: tripTitle || destinationName || 'Travel Experience',
@@ -227,7 +233,7 @@ app.post('/api/bookings', authenticateToken, async (req, res) => {
       price: price || totalPrice || 0,
       currency: currency || 'KSH',
       maxPeople: maxPeople || guests || 1,
-      bookingDate: bookingDate || startDate || new Date().toISOString(),
+      bookingDate: formattedBookingDate,
       status: status || 'pending'
     };
 
