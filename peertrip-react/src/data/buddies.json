@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "title": "Find Your Travel Buddy",
+    "subtitle": "Connect with fellow adventurers and explore Kenya together",
+    "searchPlaceholder": "Search by name, interest, or location..."
+  },
+  "buddies": [
+    {
+      "id": 1,
+      "name": "Alex Kimani",
+      "avatar": "/assets/giraffe.png",
+      "location": "Nairobi",
+      "bio": "Safari enthusiast, techie, and foodie. Loves Maasai Mara and Diani Beach.",
+      "tags": ["Safari", "Food", "Tech"],
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Maria Wanjiru",
+      "avatar": "/assets/leopard.png",
+      "location": "Mombasa",
+      "bio": "Beach lover, culture explorer, and group travel organizer. Swahili coast expert.",
+      "tags": ["Beach", "Culture", "Groups"],
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "John Otieno",
+      "avatar": "/assets/rhino.png",
+      "location": "Kisumu",
+      "bio": "Nature photographer, birdwatcher, and hiking guide. Lake Victoria local.",
+      "tags": ["Photography", "Birds", "Hiking"],
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Grace Muthoni",
+      "avatar": "/assets/elephant.png",
+      "location": "Nanyuki",
+      "bio": "UX designer, mountain trekker, and conservation volunteer. Mount Kenya is home.",
+      "tags": ["UX", "Mountains", "Conservation"],
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Samuel Kiprotich",
+      "avatar": "/assets/hippo.png",
+      "location": "Eldoret",
+      "bio": "Marathon runner, fitness coach, and adventure seeker. Rift Valley explorer.",
+      "tags": ["Running", "Fitness", "Adventure"],
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "Aisha Mohammed",
+      "avatar": "/assets/chetta.png",
+      "location": "Lamu",
+      "bio": "Cultural historian, dhow sailing enthusiast, and Swahili heritage expert.",
+      "tags": ["Culture", "History", "Sailing"],
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Peter Kariuki",
+      "avatar": "/assets/prode.png",
+      "location": "Nakuru",
+      "bio": "Wildlife conservationist, park guide, and flamingo researcher. Lake Nakuru specialist.",
+      "tags": ["Conservation", "Wildlife", "Research"],
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Catherine Muthoni",
+      "avatar": "/assets/prode.png",
+      "location": "Nairobi",
+      "bio": "UX designer, mountain trekker, and conservation volunteer. Mount Kenya is home.",
+      "tags": ["UX", "Mountains", "Conservation"],
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "name": "Join Our Community",
+      "avatar": "/assets/placeholder.jpeg",
+      "location": "Kenya",
+      "bio": "Become a verified travel buddy and share amazing experiences with fellow adventurers.",
+      "tags": ["New Member", "Community", "Adventure"],
+      "isActive": false,
+      "isInvitation": true
+    }
+  ]
+}

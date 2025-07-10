@@ -1,0 +1,73 @@
+/* Compact Ads Section Styles */
+.compact-ads-section {
+  background-color: #fff8f2;
+  padding: 1.5rem 0;
+  margin: 2rem 0;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.compact-ads-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.compact-ads-header h3 {
+  font-size: 1.25rem;
+  color: #666;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.compact-ads-strip {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+.compact-ad-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.compact-ad-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.compact-ad-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.compact-ad-item span {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .compact-ads-strip {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .compact-ad-item {
+    width: 80%;
+    justify-content: center;
+  }
+}

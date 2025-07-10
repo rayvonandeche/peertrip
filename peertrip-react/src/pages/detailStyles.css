@@ -1,0 +1,663 @@
+/* Clickable card styles */
+.destination-card, .buddy-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.destination-card:hover, .buddy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Destination detail page styles */
+.destination-detail-container,
+.buddy-profile-container {
+  max-width: 1200px;
+  margin: 7rem auto 2rem; /* Increased top margin to prevent navbar overlap */
+  padding: 0 1rem;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: -2.5rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  z-index: 10;
+}
+
+.back-button:hover {
+  background-color: #ff5252;
+}
+
+.destination-detail-header {
+  margin-bottom: 2rem;
+}
+
+.destination-detail-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.destination-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+.rating-stars i {
+  color: #ccc;
+  margin-right: 2px;
+}
+
+.rating-stars i.filled {
+  color: #ffd700;
+}
+
+.rating-stars i.half-filled {
+  position: relative;
+  color: #ffd700;
+}
+
+.rating-number {
+  font-weight: bold;
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.destination-gallery {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  height: 450px;
+  overflow-y: auto;
+}
+
+.gallery-thumbnails img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.gallery-thumbnails img:hover {
+  opacity: 0.9;
+}
+
+.gallery-thumbnails img.active {
+  border: 2px solid #ff6b6b;
+}
+
+.destination-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.destination-main-info section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.destination-main-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.full-description {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+}
+
+.feature-item i {
+  margin-right: 0.5rem;
+  color: #22c55e;
+}
+
+.season-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.season {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.season h4 {
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.activity-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.activity-card h4 {
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.activity-price {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.destination-sidebar > div {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.booking-widget h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.price-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.booking-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.booking-form .form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+.booking-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.booking-btn:hover {
+  background: #ff5252;
+}
+
+.booking-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.save-btn, .share-btn {
+  padding: 0.5rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.save-btn:hover, .share-btn:hover {
+  background: #f9f9f9;
+}
+
+.map-widget h3 {
+  margin-bottom: 1rem;
+}
+
+.map-placeholder {
+  background: #f1f1f1;
+  height: 180px;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+}
+
+.map-info p {
+  margin-bottom: 0.5rem;
+}
+
+.map-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background: #4a6ee0;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.map-btn:hover {
+  background: #3d5cba;
+}
+
+/* Buddy Profile Styles */
+/* Buddy profile container styles are shared with destination detail container above */
+
+.buddy-profile-header {
+  position: relative;
+  height: 300px;
+  margin-top: 1rem; /* Add some space after the back button */
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.buddy-profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+}
+
+.buddy-profile-info {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.buddy-profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-right: 1.5rem;
+  object-fit: cover;
+}
+
+.buddy-profile-name-info {
+  color: white;
+}
+
+.buddy-profile-name-info h1 {
+  margin-bottom: 0.25rem;
+  font-size: 1.75rem;
+}
+
+.buddy-profile-title {
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.buddy-profile-location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.buddy-profile-location i {
+  margin-right: 0.5rem;
+}
+
+.buddy-profile-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.buddy-profile-rating .stars {
+  margin-right: 0.5rem;
+}
+
+.buddy-profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.buddy-tag {
+  background: rgba(255,255,255,0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+}
+
+.buddy-profile-tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.tab:hover {
+  color: #ff6b6b;
+}
+
+.tab.active {
+  color: #ff6b6b;
+  border-bottom-color: #ff6b6b;
+}
+
+.tab-content {
+  margin-bottom: 2rem;
+}
+
+.bio-section {
+  margin-bottom: 2rem;
+}
+
+.bio-section p {
+  line-height: 1.6;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.detail-item h4 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.language-tag {
+  background: #f1f1f1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.experience-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.specialties-list {
+  padding-left: 1.25rem;
+}
+
+.specialties-list li {
+  margin-bottom: 0.5rem;
+}
+
+.featured-trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.trip-card {
+  display: flex;
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.trip-img {
+  width: 130px;
+  overflow: hidden;
+}
+
+.trip-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trip-info {
+  flex: 1;
+  padding: 1rem;
+}
+
+.trip-info h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.trip-price {
+  margin: 0.5rem 0;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.view-trip-btn {
+  padding: 0.5rem 0.75rem;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.view-trip-btn:hover {
+  background: #ff5252;
+}
+
+.buddy-profile-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.message-btn, .connect-btn, .plan-trip-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.message-btn i, .connect-btn i, .plan-trip-btn i {
+  margin-right: 0.5rem;
+}
+
+.message-btn {
+  background: #4a6ee0;
+  color: white;
+}
+
+.message-btn:hover {
+  background: #3d5cba;
+}
+
+.connect-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.connect-btn:hover {
+  background: #16a34a;
+}
+
+.plan-trip-btn {
+  background: #ff6b6b;
+  color: white;
+}
+
+.plan-trip-btn:hover {
+  background: #ff5252;
+}
+
+.loading-container, .not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 2rem;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top-color: #ff6b6b;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .destination-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .destination-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .gallery-thumbnails {
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .buddy-profile-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .buddy-profile-avatar {
+    margin-bottom: 1rem;
+  }
+  
+  .feature-list, .details-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .gallery-thumbnails {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .buddy-profile-actions {
+    flex-direction: column;
+  }
+  
+  .message-btn, .connect-btn, .plan-trip-btn {
+    width: 100%;
+  }
+  
+  .back-button {
+    top: -3rem; /* Move back button up a bit on mobile */
+  }
+  
+  .destination-detail-container,
+  .buddy-profile-container {
+    margin-top: 6rem; /* Adjust top margin on mobile */
+  }
+}

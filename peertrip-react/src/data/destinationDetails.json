@@ -1,0 +1,919 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Maasai Mara National Reserve",
+      "description": "World's greatest wildlife spectacle during the Great Migration. Experience the Big Five in their natural habitat with expert local guides.",
+      "fullDescription": "The Maasai Mara National Reserve is one of Africa's most magnificent game reserves. Bordering Tanzania, the Mara is the northern extension of the Serengeti and forms a wildlife corridor between the two countries. It's named after the statuesque, red-cloaked Maasai people who live in the park and graze their animals as they have done for centuries. The park is famous for the Great Migration, when thousands of wildebeest, zebra, and Thomson's gazelle travel to and from the Serengeti, from July through October.\n\nThe Mara has one of the highest lion densities in world, and is home to all the Big Five (lion, leopard, elephant, buffalo, and rhino). Other wildlife includes cheetah, zebra, giraffe, hyena, crocodile, hippo, and various antelopes. Over 450 bird species have been identified in the park.",
+      "image": "/assets/kenya safari.jpeg",
+      "gallery": [
+        "/assets/masaai village.png",
+        "/assets/giraffe.png",
+        "/assets/elephant.png",
+        "/assets/lion.png",
+        "/assets/safari vehicle.jpeg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 12847,
+      "price": "From KSH 25,000/day",
+      "location": {
+        "region": "Narok County, Southwestern Kenya",
+        "coordinates": "1.5046° S, 35.1352° E",
+        "distance": "270 km southwest of Nairobi"
+      },
+      "features": [
+        "Game drives",
+        "Balloon safaris",
+        "Maasai cultural visits",
+        "Bird watching",
+        "Photography tours",
+        "Walking safaris"
+      ],
+      "bestTimeToVisit": "July to October during the Great Migration, January to February for fewer crowds",
+      "thingsToBring": [
+        "Camera with telephoto lens",
+        "Binoculars",
+        "Sunscreen",
+        "Hat",
+        "Neutral colored clothing",
+        "Insect repellent"
+      ],
+      "accommodations": [
+        {
+          "name": "Mara Serena Safari Lodge",
+          "description": "Luxury lodge with panoramic views of the plains",
+          "priceRange": "KSH 30,000-50,000/night"
+        },
+        {
+          "name": "Governors' Camp",
+          "description": "Authentic tented camp along the Mara River",
+          "priceRange": "KSH 25,000-40,000/night"
+        },
+        {
+          "name": "Enkewa Camp",
+          "description": "Intimate eco-friendly camp with personal service",
+          "priceRange": "KSH 20,000-35,000/night"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Diani Beach, Mombasa",
+      "description": "Pristine white sand beaches with crystal clear waters. Perfect for diving, snorkeling, and experiencing Swahili coastal culture.",
+      "fullDescription": "Diani Beach is a flawless paradise stretching 17 kilometers along Kenya's south coast. This award-winning beach boasts powder-white sand, lush greenery, and the warm, turquoise waters of the Indian Ocean. Coral reefs close to shore create perfect conditions for snorkeling and diving, with colorful marine life just a short swim away.\n\nBeyond the beach, visitors can explore the Shimba Hills National Reserve, take boat trips to spot dolphins, or visit the sacred Kaya forests. The area maintains strong Swahili cultural influences, with local markets, cuisine, and architecture reflecting these traditions. The vibrant nightlife, water sports, and luxury beachfront accommodations make Diani a versatile destination for relaxation and adventure.",
+      "image": "/assets/tropical beach.jpeg",
+      "gallery": [
+        "/assets/diani beach.png",
+        "/assets/beachfront.jpeg",
+        "/assets/traditional dhow.png",
+        "/assets/shela beach.png",
+        "/assets/malindi coral reefs.png"
+      ],
+      "rating": 4.7,
+      "reviewCount": 8924,
+      "price": "From KSH 8,500/day",
+      "location": {
+        "region": "Kwale County, South Coast",
+        "coordinates": "4.2765° S, 39.5905° E",
+        "distance": "30 km south of Mombasa"
+      },
+      "features": [
+        "Snorkeling and diving",
+        "Dolphin watching",
+        "Kitesurfing",
+        "Deep-sea fishing",
+        "Beach yoga",
+        "Swahili cooking classes"
+      ],
+      "bestTimeToVisit": "January to March and July to October for dry weather and calm seas",
+      "thingsToBring": [
+        "Swimwear",
+        "Sun protection",
+        "Reef-safe sunscreen",
+        "Snorkeling gear",
+        "Light, breathable clothing",
+        "Underwater camera"
+      ],
+      "accommodations": [
+        {
+          "name": "The Sands at Nomad",
+          "description": "Luxury beachfront resort with private beach access",
+          "priceRange": "KSH 18,000-35,000/night"
+        },
+        {
+          "name": "Diani Sea Lodge",
+          "description": "All-inclusive resort with multiple pools and restaurants",
+          "priceRange": "KSH 12,000-25,000/night"
+        },
+        {
+          "name": "Diani Beach Villas",
+          "description": "Private villas with personal chefs and pools",
+          "priceRange": "KSH 20,000-60,000/night"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amboseli National Park",
+      "description": "Iconic views of Mount Kilimanjaro with large elephant herds. Famous for incredible wildlife photography opportunities and Maasai cultural encounters.",
+      "fullDescription": "Amboseli National Park offers one of Africa's most classic and breathtaking views: herds of elephants strolling across the plains with the snow-capped Mount Kilimanjaro in the background. Despite its relatively small size (392 sq km), Amboseli has varied landscapes including the dried-up bed of Lake Amboseli, wetlands with sulphur springs, savannah, and woodlands.\n\nThe park is famous for being the best place in Africa to get close to free-ranging elephants. Other wildlife includes lions, cheetahs, giraffes, impalas, elands, waterbucks, gazelles, and more than 600 species of birds. The park also offers cultural encounters with the Maasai people, whose villages border the park.",
+      "image": "/assets/luxury safari.jpeg",
+      "gallery": [
+        "/assets/elephant.png",
+        "/assets/safari vehicle.jpeg",
+        "/assets/kenya safari.jpeg",
+        "/assets/mount kenya.png",
+        "/assets/masaai village.png"
+      ],
+      "rating": 4.9,
+      "reviewCount": 6733,
+      "price": "From KSH 18,500/day",
+      "location": {
+        "region": "Kajiado County",
+        "coordinates": "2.6516° S, 37.2606° E",
+        "distance": "240 km southeast of Nairobi"
+      },
+      "features": [
+        "Elephant watching",
+        "Mount Kilimanjaro views",
+        "Photography safaris",
+        "Guided nature walks",
+        "Maasai village visits",
+        "Bird watching"
+      ],
+      "bestTimeToVisit": "June to October and January to February for clear views of Kilimanjaro",
+      "thingsToBring": [
+        "Telephoto camera lens",
+        "Binoculars",
+        "Warm clothing for mornings",
+        "Hat and sunscreen",
+        "Dust protection",
+        "Comfortable walking shoes"
+      ],
+      "accommodations": [
+        {
+          "name": "Amboseli Serena Safari Lodge",
+          "description": "Luxury lodge with Kilimanjaro views and traditional Maasai-inspired design",
+          "priceRange": "KSH 25,000-45,000/night"
+        },
+        {
+          "name": "Ol Tukai Lodge",
+          "description": "Eco-friendly lodge in the heart of the park with elephant viewing",
+          "priceRange": "KSH 22,000-38,000/night"
+        },
+        {
+          "name": "Kibo Safari Camp",
+          "description": "Luxury tented camp with mountain views",
+          "priceRange": "KSH 15,000-25,000/night"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Adventure Awaits",
+      "description": "From hiking mountains to exploring rift valleys, Kenya offers thrilling adventures for everyone.",
+      "fullDescription": "Kenya is a paradise for adventure seekers, offering a diverse range of adrenaline-pumping activities across its varied landscapes. From climbing Mount Kenya, Africa's second highest peak, to white-water rafting on the Tana River, the country presents limitless opportunities for outdoor enthusiasts.\n\nHike through the dramatic landscapes of Hell's Gate National Park, where towering cliffs, deep gorges, and geothermal features create a surreal backdrop for rock climbing and mountain biking. Trek through the ancient forests of the Aberdare Mountains or challenge yourself with the multi-day hike up Mount Kenya.\n\nFor water enthusiasts, Kenya offers everything from kitesurfing on the Indian Ocean to kayaking on Lake Naivasha. Wildlife adventures include walking safaris, camel trekking in the northern frontier, and even running with Kenyan marathon champions in the highlands.",
+      "image": "/assets/adventure.jpeg",
+      "gallery": [
+        "/assets/hiking.jpeg",
+        "/assets/hells gorges.png",
+        "/assets/mount kenya.png",
+        "/assets/rift valley.png",
+        "/assets/karura waterfall.png"
+      ],
+      "rating": 4.4,
+      "reviewCount": 3150,
+      "price": "From KSH 5,000/activity",
+      "location": {
+        "region": "Various locations across Kenya",
+        "coordinates": "Multiple",
+        "distance": "Across the country"
+      },
+      "features": [
+        "Mountain climbing",
+        "White-water rafting",
+        "Rock climbing",
+        "Hiking trails",
+        "Mountain biking",
+        "Camel trekking"
+      ],
+      "bestTimeToVisit": "January to March and June to September for dry conditions",
+      "thingsToBring": [
+        "Hiking boots",
+        "Technical gear for specific activities",
+        "First aid kit",
+        "Weather-appropriate clothing",
+        "Refillable water bottle",
+        "Energy snacks"
+      ],
+      "accommodations": [
+        {
+          "name": "Adventure Camps Kenya",
+          "description": "Rustic camps near major hiking trails",
+          "priceRange": "KSH 5,000-15,000/night"
+        },
+        {
+          "name": "Mt. Kenya Leisure Lodge",
+          "description": "Comfortable base for mountain expeditions",
+          "priceRange": "KSH 8,000-18,000/night"
+        },
+        {
+          "name": "Savage Wilderness Camp",
+          "description": "Adventure-focused accommodation with on-site activities",
+          "priceRange": "KSH 7,000-12,000/night"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Vibrant City Life",
+      "description": "Explore the bustling cities of Kenya, rich in culture, history, and modern attractions.",
+      "fullDescription": "Kenya's urban centers offer a fascinating blend of African traditions, colonial history, and contemporary energy. Nairobi, the vibrant capital, is a cosmopolitan hub where skyscrapers tower over national parks, and where you can enjoy world-class dining before spotting rhinos at the nearby Nairobi National Park.\n\nMombasa, with its rich Swahili heritage, features the historic Fort Jesus, bustling markets, and a vibrant nightlife along its coastal setting. Kisumu, on the shores of Lake Victoria, provides insights into Luo culture while offering modern amenities and lakeside attractions.\n\nIn these cities, visitors can explore museums that chronicle Kenya's diverse heritage, sample innovative fusion cuisine at trendy restaurants, browse contemporary art galleries showcasing East African talent, and experience the legendary Kenyan nightlife with its blend of traditional and modern music scenes.",
+      "image": "/assets/city.jpeg",
+      "gallery": [
+        "/assets/nairobi city skyline.png",
+        "/assets/fort jesus.png",
+        "/assets/nairoboi railways.jpeg",
+        "/assets/maasai market.jpeg",
+        "/assets/kisumu lakefront.png"
+      ],
+      "rating": 4.3,
+      "reviewCount": 4200,
+      "price": "From KSH 3,000/tour",
+      "location": {
+        "region": "Major cities: Nairobi, Mombasa, Kisumu",
+        "coordinates": "Multiple",
+        "distance": "Various"
+      },
+      "features": [
+        "Cultural tours",
+        "Museum visits",
+        "Shopping experiences",
+        "Fine dining",
+        "Nightlife exploration",
+        "Art galleries"
+      ],
+      "bestTimeToVisit": "Year-round, with June to September offering pleasant weather",
+      "thingsToBring": [
+        "Comfortable walking shoes",
+        "Smart casual attire for restaurants",
+        "Camera",
+        "Small backpack",
+        "Light rain jacket",
+        "City map or offline map app"
+      ],
+      "accommodations": [
+        {
+          "name": "Villa Rosa Kempinski",
+          "description": "Luxury 5-star hotel in Nairobi with world-class amenities",
+          "priceRange": "KSH 20,000-60,000/night"
+        },
+        {
+          "name": "Sarova Whitesands Beach Resort",
+          "description": "Beachfront resort in Mombasa with multiple pools",
+          "priceRange": "KSH 15,000-40,000/night"
+        },
+        {
+          "name": "Acacia Premier Hotel",
+          "description": "Modern hotel in Kisumu with lake views",
+          "priceRange": "KSH 10,000-25,000/night"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Authentic Kenyan Cuisine",
+      "description": "Indulge in the unique and diverse flavors of Kenyan food, from street food to fine dining.",
+      "fullDescription": "Kenyan cuisine is a delicious exploration of flavors influenced by indigenous traditions, Arab trade, Indian migration, and European colonization. The result is a vibrant culinary landscape that varies across different regions and cultures within the country.\n\nSignature dishes include Nyama Choma (grilled meat, typically goat or beef), served with Ugali (maize meal) and Sukuma Wiki (collard greens). Along the coast, Swahili dishes like Pilau (spiced rice), Biryani, and fresh seafood dominate, showcasing the Arab and Indian influences. Traditional delicacies include Irio (mashed peas and potatoes with corn), Mutura (Kenyan sausage), and Githeri (beans and corn stew).\n\nFrom bustling street food markets to upscale restaurants reinventing traditional dishes with modern techniques, Kenya offers culinary experiences for every palate. Don't miss trying Kenyan coffee and tea, grown in the highlands and considered among the best in the world.",
+      "image": "/assets/food.jpeg",
+      "gallery": [
+        "/assets/traditional kenyan cuisine.jpeg",
+        "/assets/restaurant1.jpg",
+        "/assets/restaurant2.jpg",
+        "/assets/restaurant3.jpg",
+        "/assets/restaurant4.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 5550,
+      "price": "From KSH 1,500/meal",
+      "location": {
+        "region": "Throughout Kenya, with regional specialties",
+        "coordinates": "Multiple",
+        "distance": "Various"
+      },
+      "features": [
+        "Cooking classes",
+        "Food tours",
+        "Market visits",
+        "Coffee plantation tours",
+        "Fine dining experiences",
+        "Street food adventures"
+      ],
+      "bestTimeToVisit": "Year-round, with seasonal specialties",
+      "thingsToBring": [
+        "Appetite",
+        "Open mind for new flavors",
+        "Camera",
+        "Comfortable clothing",
+        "Hand sanitizer for street food",
+        "Notebook for recipes"
+      ],
+      "accommodations": [
+        {
+          "name": "Hemingways Nairobi",
+          "description": "Boutique hotel with award-winning restaurant",
+          "priceRange": "KSH 25,000-50,000/night"
+        },
+        {
+          "name": "Tamarind Dhow",
+          "description": "Floating restaurant with accommodation options",
+          "priceRange": "KSH 15,000-30,000/night"
+        },
+        {
+          "name": "Talisman Restaurant & Lodge",
+          "description": "Renowned restaurant with boutique rooms",
+          "priceRange": "KSH 12,000-25,000/night"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mount Kenya",
+      "description": "Africa's second highest peak with diverse ecosystems and trekking routes.",
+      "fullDescription": "Mount Kenya is a magnificent stratovolcano that rises majestically from the central highlands of Kenya. As Africa's second-highest peak at 5,199 meters, it offers some of the most spectacular mountain climbing and trekking experiences on the continent. The mountain features diverse ecosystems ranging from montane forest to alpine desert, and is a UNESCO World Heritage Site.",
+      "image": "/assets/mount kenya.png",
+      "gallery": [
+        "/assets/mount kenya.png",
+        "/assets/hiking.jpeg"
+      ],
+      "rating": 4.4,
+      "reviewCount": 743,
+      "price": "From KSH 15,000/day",
+      "location": {
+        "region": "Central Kenya",
+        "coordinates": "0.1500° S, 37.3000° E",
+        "distance": "150 km northeast of Nairobi"
+      },
+      "features": [
+        "Mountain climbing",
+        "Trekking",
+        "Wildlife viewing",
+        "Photography",
+        "Camping"
+      ],
+      "bestTimeToVisit": "January-February and July-October for dry weather",
+      "thingsToBring": [
+        "Warm clothing",
+        "Hiking boots",
+        "Rain gear",
+        "Water bottles",
+        "First aid kit"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lake Nakuru National Park",
+      "description": "Famous for flamingos, rhinos, and diverse bird species.",
+      "fullDescription": "Lake Nakuru National Park is renowned for its spectacular flamingo populations and as a rhino sanctuary. The alkaline lake attracts millions of flamingos, creating one of nature's most beautiful spectacles. The park is also home to both black and white rhinos, making it one of the best places in Kenya to see these magnificent creatures.",
+      "image": "/assets/rift valley.png",
+      "gallery": [
+        "/assets/rift valley.png"
+      ],
+      "rating": 4.3,
+      "reviewCount": 892,
+      "price": "From KSH 11,800/day",
+      "location": {
+        "region": "Rift Valley, Central Kenya",
+        "coordinates": "0.3500° S, 36.0833° E",
+        "distance": "160 km northwest of Nairobi"
+      },
+      "features": [
+        "Flamingo viewing",
+        "Rhino sanctuary",
+        "Bird watching",
+        "Game drives",
+        "Photography"
+      ],
+      "bestTimeToVisit": "Year-round, best flamingo viewing June-January",
+      "thingsToBring": [
+        "Binoculars",
+        "Camera with telephoto lens",
+        "Sunscreen",
+        "Hat",
+        "Water bottle"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kenya's Wildlife",
+      "description": "Home to the 'Big Five' and countless other species.",
+      "fullDescription": "Kenya's wildlife is legendary, offering some of the best game viewing experiences in Africa. The country is home to the famous 'Big Five' - lion, leopard, elephant, buffalo, and rhino - as well as countless other species including cheetahs, giraffes, zebras, and over 1,000 bird species.",
+      "image": "/assets/wild animals.jpeg",
+      "gallery": [
+        "/assets/wild animals.jpeg",
+        "/assets/elephant.png",
+        "/assets/giraffe.png",
+        "/assets/leopard.png"
+      ],
+      "rating": 4.9,
+      "reviewCount": 3000,
+      "price": "From KSH 20,000/day",
+      "location": {
+        "region": "Various national parks across Kenya",
+        "coordinates": "Multiple locations",
+        "distance": "Various distances from major cities"
+      },
+      "features": [
+        "Big Five viewing",
+        "Game drives",
+        "Wildlife photography",
+        "Educational tours",
+        "Conservation experiences"
+      ],
+      "bestTimeToVisit": "Year-round, dry season June-October ideal",
+      "thingsToBring": [
+        "Camera equipment",
+        "Binoculars",
+        "Neutral colored clothing",
+        "Sunscreen",
+        "Insect repellent"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Karura Forest",
+      "description": "An urban forest in Nairobi with waterfalls, caves, and cycling trails.",
+      "fullDescription": "Karura Forest is a 1,041-hectare urban forest reserve in Nairobi, offering a peaceful escape from city life. The forest features beautiful waterfalls, mysterious caves, and well-maintained trails for walking, jogging, and cycling. It's a perfect destination for nature lovers seeking tranquility within the bustling capital.",
+      "image": "/assets/karura waterfall.png",
+      "gallery": [
+        "/assets/karura waterfall.png"
+      ],
+      "rating": 4.6,
+      "reviewCount": 950,
+      "price": "KSH 1,000 entry",
+      "location": {
+        "region": "Nairobi, Kenya",
+        "coordinates": "1.2500° S, 36.8500° E",
+        "distance": "Within Nairobi city"
+      },
+      "features": [
+        "Nature walks",
+        "Cycling trails",
+        "Waterfall viewing",
+        "Cave exploration",
+        "Picnic areas"
+      ],
+      "bestTimeToVisit": "Year-round, early morning for best experience",
+      "thingsToBring": [
+        "Comfortable walking shoes",
+        "Water bottle",
+        "Camera",
+        "Light snacks",
+        "Rain jacket"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Unique Tree Houses",
+      "description": "Experience Kenya from a unique perspective in a luxury tree house.",
+      "fullDescription": "Kenya's luxury tree house accommodations offer an extraordinary way to experience the African wilderness. Built high among the trees, these unique lodges provide incredible views of wildlife and landscapes while offering modern comforts and exceptional service.",
+      "image": "/assets/tree house.jpeg",
+      "gallery": [
+        "/assets/tree house.jpeg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 600,
+      "price": "From KSH 25,000/night",
+      "location": {
+        "region": "Various locations in Kenya",
+        "coordinates": "Multiple locations",
+        "distance": "Various national parks and reserves"
+      },
+      "features": [
+        "Luxury accommodation",
+        "Wildlife viewing",
+        "Romantic settings",
+        "Gourmet dining",
+        "Unique experience"
+      ],
+      "bestTimeToVisit": "Year-round, dry season preferred",
+      "thingsToBring": [
+        "Comfortable clothing",
+        "Camera",
+        "Binoculars",
+        "Personal items",
+        "Light jacket for evenings"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Classic Safari Experience",
+      "description": "Embark on an adventure in a traditional open-roof safari vehicle.",
+      "fullDescription": "The classic safari experience in Kenya involves exploring the wilderness in traditional open-roof safari vehicles. This authentic way of game viewing allows for unobstructed photography and an immersive connection with nature while maintaining safety and comfort.",
+      "image": "/assets/safari vehicle.jpeg",
+      "gallery": [
+        "/assets/safari vehicle.jpeg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 1200,
+      "price": "From KSH 15,000/day",
+      "location": {
+        "region": "Various national parks",
+        "coordinates": "Multiple safari destinations",
+        "distance": "Throughout Kenya's game reserves"
+      },
+      "features": [
+        "Traditional safari vehicles",
+        "Expert guides",
+        "Wildlife viewing",
+        "Photography opportunities",
+        "Multiple park access"
+      ],
+      "bestTimeToVisit": "Year-round, dry season ideal",
+      "thingsToBring": [
+        "Camera with good zoom",
+        "Sunscreen",
+        "Hat",
+        "Water bottle",
+        "Comfortable clothing"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Lamu Island",
+      "description": "Step back in time in this UNESCO World Heritage site with rich Swahili culture.",
+      "fullDescription": "Lamu Island is one of Kenya's most precious cultural treasures and a UNESCO World Heritage site. The island's Old Town is the oldest and best-preserved Swahili settlement in East Africa, with traditional architecture featuring intricately carved wooden doors and coral stone buildings. With no cars on the island, transportation is by foot, donkey, or traditional dhow sailing boats.",
+      "image": "/assets/lamu old town.png",
+      "gallery": [
+        "/assets/lamu old town.png",
+        "/assets/traditional dhow.png",
+        "/assets/shela beach.png"
+      ],
+      "rating": 4.7,
+      "reviewCount": 820,
+      "price": "From KSH 7,000/day",
+      "location": {
+        "region": "Lamu County, Kenya Coast",
+        "coordinates": "2.2697° S, 40.9020° E",
+        "distance": "341 km northeast of Mombasa"
+      },
+      "features": [
+        "Cultural tours",
+        "Dhow sailing",
+        "Beach relaxation",
+        "Historical sites",
+        "Swahili cuisine experiences",
+        "Local crafts"
+      ],
+      "bestTimeToVisit": "January to March and July to October for pleasant weather",
+      "thingsToBring": [
+        "Light, modest clothing",
+        "Comfortable walking sandals",
+        "Sun protection",
+        "Camera",
+        "Cash (limited ATMs)",
+        "Respect for local customs"
+      ],
+      "accommodations": [
+        {
+          "name": "The Majlis Resort",
+          "description": "Luxury beachfront villa-style accommodation",
+          "priceRange": "KSH 20,000-50,000/night"
+        },
+        {
+          "name": "Lamu House Hotel",
+          "description": "Authentic Swahili-style boutique hotel",
+          "priceRange": "KSH 12,000-25,000/night"
+        },
+        {
+          "name": "Shela Bahari Guesthouse",
+          "description": "Affordable authentic guesthouse",
+          "priceRange": "KSH 5,000-10,000/night"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Hell's Gate National Park",
+      "description": "Walk or cycle among wildlife in a dramatic landscape of cliffs and gorges.",
+      "fullDescription": "Hell's Gate National Park is unique among Kenya's wildlife parks as it allows walking, cycling, and rock climbing. Named for the intense geothermal activity within its boundaries, the park features impressive rock formations, deep gorges, geysers, and hot springs. The landscape inspired settings in Disney's 'The Lion King' and was the location for the movie 'Tomb Raider: The Cradle of Life.'",
+      "image": "/assets/hells gorges.png",
+      "gallery": [
+        "/assets/hells gorges.png",
+        "/assets/hiking.jpeg"
+      ],
+      "rating": 4.5,
+      "reviewCount": 950,
+      "price": "From KSH 3,500/day",
+      "location": {
+        "region": "Nakuru County, Great Rift Valley",
+        "coordinates": "0.9167° S, 36.3167° E",
+        "distance": "90 km northwest of Nairobi"
+      },
+      "features": [
+        "Cycling tours",
+        "Hiking",
+        "Rock climbing",
+        "Wildlife viewing",
+        "Geothermal spa",
+        "Gorge walks"
+      ],
+      "bestTimeToVisit": "January to March and June to October for dry conditions",
+      "thingsToBring": [
+        "Comfortable hiking shoes",
+        "Sun protection",
+        "Water bottles",
+        "Light backpack",
+        "Camera",
+        "Light jacket"
+      ],
+      "accommodations": [
+        {
+          "name": "Lake Naivasha Sopa Resort",
+          "description": "Luxury lodge near the park with lake views",
+          "priceRange": "KSH 15,000-30,000/night"
+        },
+        {
+          "name": "Enashipai Resort & Spa",
+          "description": "Upscale resort with spa facilities",
+          "priceRange": "KSH 18,000-35,000/night"
+        },
+        {
+          "name": "Camp Carnelley's",
+          "description": "Rustic camping and budget accommodation",
+          "priceRange": "KSH 3,000-8,000/night"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Lake Naivasha",
+      "description": "Freshwater lake with hippos, over 400 bird species, and boat safaris.",
+      "fullDescription": "Lake Naivasha is a beautiful freshwater lake in Kenya's Great Rift Valley, surrounded by mountains and known for its abundant birdlife and hippo populations. The lake supports a thriving flower industry and offers various activities from boat safaris to hiking on nearby Mount Longonot and Hell's Gate National Park.",
+      "image": "/assets/l naivasha with eaagle.png",
+      "gallery": [
+        "/assets/l naivasha with eaagle.png",
+        "/assets/hippo.png",
+        "/assets/hells gorges.png"
+      ],
+      "rating": 4.4,
+      "reviewCount": 780,
+      "price": "From KSH 4,000/day",
+      "location": {
+        "region": "Nakuru County, Great Rift Valley",
+        "coordinates": "0.7167° S, 36.4167° E",
+        "distance": "80 km northwest of Nairobi"
+      },
+      "features": [
+        "Boat safaris",
+        "Bird watching",
+        "Hippo viewing",
+        "Crescent Island walks",
+        "Flower farm tours",
+        "Nearby hiking"
+      ],
+      "bestTimeToVisit": "January to March and June to October for pleasant weather",
+      "thingsToBring": [
+        "Binoculars",
+        "Camera",
+        "Sun protection",
+        "Insect repellent",
+        "Light jacket for mornings",
+        "Comfortable walking shoes"
+      ],
+      "accommodations": [
+        {
+          "name": "Sawela Lodge",
+          "description": "Luxury lodge with lake views and manicured gardens",
+          "priceRange": "KSH 15,000-30,000/night"
+        },
+        {
+          "name": "Lake Naivasha Country Club",
+          "description": "Historic colonial-era property on the lake shore",
+          "priceRange": "KSH 12,000-25,000/night"
+        },
+        {
+          "name": "Fish Eagle Inn",
+          "description": "Mid-range accommodation with lake access",
+          "priceRange": "KSH 8,000-15,000/night"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Nairobi National Park",
+      "description": "The world's only capital city national park, with wildlife against city skyline views.",
+      "fullDescription": "Nairobi National Park offers the remarkable experience of viewing wildlife against the backdrop of a capital city's skyline. Just 7 km from Nairobi's center, this unique park hosts lions, rhinos, giraffes, zebras, and over 400 bird species. Despite its relatively small size and urban location, the park provides authentic safari experiences with a diverse ecosystem.",
+      "image": "/assets/nairobi city skyline.png",
+      "gallery": [
+        "/assets/nairobi city skyline.png",
+        "/assets/rhino.png",
+        "/assets/giraffe.png"
+      ],
+      "rating": 4.5,
+      "reviewCount": 2100,
+      "price": "From KSH 4,300/day",
+      "location": {
+        "region": "Nairobi County",
+        "coordinates": "1.3667° S, 36.8333° E",
+        "distance": "7 km south of Nairobi CBD"
+      },
+      "features": [
+        "Game drives",
+        "Rhino sanctuary",
+        "David Sheldrick Elephant Orphanage",
+        "Walking trails",
+        "Photography",
+        "Picnic sites"
+      ],
+      "bestTimeToVisit": "July to March for best wildlife viewing",
+      "thingsToBring": [
+        "Camera",
+        "Binoculars",
+        "Sun protection",
+        "Water bottle",
+        "Light clothing",
+        "Cash for entrance fees"
+      ],
+      "accommodations": [
+        {
+          "name": "Nairobi Tented Camp",
+          "description": "Only accommodation inside the national park",
+          "priceRange": "KSH 20,000-35,000/night"
+        },
+        {
+          "name": "Ole-Sereni Hotel",
+          "description": "Hotel overlooking the park boundary",
+          "priceRange": "KSH 15,000-30,000/night"
+        },
+        {
+          "name": "Emakoko Lodge",
+          "description": "Luxury lodge on the park's border",
+          "priceRange": "KSH 25,000-45,000/night"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Samburu National Reserve",
+      "description": "Semi-arid reserve home to unique species like the Grevy's zebra and reticulated giraffe.",
+      "fullDescription": "Samburu National Reserve showcases a different side of Kenya with its rugged, semi-arid landscapes and unique wildlife. The reserve is home to the 'Samburu Special Five': Grevy's zebra, reticulated giraffe, Somali ostrich, gerenuk, and beisa oryx. The Ewaso Nyiro River running through the reserve creates a green belt that attracts animals and provides excellent viewing opportunities.",
+      "image": "/assets/giraffe.png",
+      "gallery": [
+        "/assets/giraffe.png",
+        "/assets/elephant.png",
+        "/assets/buffalo.png"
+      ],
+      "rating": 4.7,
+      "reviewCount": 860,
+      "price": "From KSH 12,000/day",
+      "location": {
+        "region": "Samburu County, Northern Kenya",
+        "coordinates": "0.6167° N, 37.5333° E",
+        "distance": "350 km north of Nairobi"
+      },
+      "features": [
+        "Unique wildlife species",
+        "Cultural visits to Samburu villages",
+        "Bird watching",
+        "River safaris",
+        "Photography",
+        "Camel trekking"
+      ],
+      "bestTimeToVisit": "June to October and December to March for dry season",
+      "thingsToBring": [
+        "Light, neutral-colored clothing",
+        "Sun protection",
+        "Dust protection",
+        "Camera with zoom lens",
+        "Binoculars",
+        "Refillable water bottle"
+      ],
+      "accommodations": [
+        {
+          "name": "Elephant Bedroom Camp",
+          "description": "Luxury tented camp on the Ewaso Nyiro riverbank",
+          "priceRange": "KSH 25,000-45,000/night"
+        },
+        {
+          "name": "Samburu Sopa Lodge",
+          "description": "Family-friendly lodge with traditional design",
+          "priceRange": "KSH 15,000-30,000/night"
+        },
+        {
+          "name": "Samburu Simba Lodge",
+          "description": "Mid-range lodge with river views",
+          "priceRange": "KSH 12,000-25,000/night"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Cultural Experiences",
+      "description": "Immerse yourself in Kenya's diverse cultures from Maasai to Swahili traditions.",
+      "fullDescription": "Kenya is home to over 40 different ethnic groups, each with their own language and cultural traditions. From the iconic Maasai warriors with their vibrant red shukas and jumping dances to the Swahili communities along the coast with their blend of African and Arabic influences, Kenya offers rich cultural experiences for travelers seeking authentic interactions.",
+      "image": "/assets/masaai village.png",
+      "gallery": [
+        "/assets/masaai village.png",
+        "/assets/maasai market.jpeg",
+        "/assets/traditional kenyan cuisine.jpeg",
+        "/assets/lamu old town.png"
+      ],
+      "rating": 4.8,
+      "reviewCount": 950,
+      "price": "From KSH 3,500/experience",
+      "location": {
+        "region": "Various locations across Kenya",
+        "coordinates": "Multiple",
+        "distance": "Throughout the country"
+      },
+      "features": [
+        "Village visits",
+        "Traditional dance performances",
+        "Craft workshops",
+        "Home stays",
+        "Local cuisine experiences",
+        "Cultural museums"
+      ],
+      "bestTimeToVisit": "Year-round, with various seasonal festivals",
+      "thingsToBring": [
+        "Respectful clothing",
+        "Small gifts for visited communities",
+        "Camera (always ask permission before photographing people)",
+        "Cash for purchasing crafts",
+        "Open mind and respect for local customs",
+        "Journal"
+      ],
+      "accommodations": [
+        {
+          "name": "Maji Moto Eco Camp",
+          "description": "Community-run Maasai camp with authentic experiences",
+          "priceRange": "KSH 8,000-15,000/night"
+        },
+        {
+          "name": "Bomas of Kenya Homestay",
+          "description": "Cultural immersion program with local families",
+          "priceRange": "KSH 5,000-10,000/night"
+        },
+        {
+          "name": "Swahili House",
+          "description": "Traditional coastal home in Lamu",
+          "priceRange": "KSH 10,000-20,000/night"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Chyulu Hills",
+      "description": "Young volcanic mountains with stunning landscapes and excellent hiking.",
+      "fullDescription": "The Chyulu Hills are one of the world's youngest mountain ranges, formed between 150,000 and 1.4 million years ago. This stunning landscape of rolling green hills and volcanic cones sits between Amboseli and Tsavo West National Parks. The area inspired Ernest Hemingway's 'Green Hills of Africa' and offers breathtaking views of Mount Kilimanjaro on clear days.",
+      "image": "/assets/chyulu hills.png",
+      "gallery": [
+        "/assets/chyulu hills.png",
+        "/assets/elephant.png"
+      ],
+      "rating": 4.6,
+      "reviewCount": 410,
+      "price": "From KSH 10,000/day",
+      "location": {
+        "region": "Between Makueni and Kajiado Counties",
+        "coordinates": "2.6833° S, 37.8833° E",
+        "distance": "190 km southeast of Nairobi"
+      },
+      "features": [
+        "Hiking",
+        "Cave exploration",
+        "Wildlife viewing",
+        "Mountain biking",
+        "Horseback safaris",
+        "Fly camping"
+      ],
+      "bestTimeToVisit": "June to October and January to February for clear weather",
+      "thingsToBring": [
+        "Hiking boots",
+        "Layers for temperature changes",
+        "Walking stick",
+        "Headlamp for cave exploration",
+        "Water bottles",
+        "Camera"
+      ],
+      "accommodations": [
+        {
+          "name": "ol Donyo Lodge",
+          "description": "Luxury lodge with Mount Kilimanjaro views",
+          "priceRange": "KSH 40,000-80,000/night"
+        },
+        {
+          "name": "Campi ya Kanzi",
+          "description": "Eco-friendly lodge run in partnership with Maasai community",
+          "priceRange": "KSH 30,000-60,000/night"
+        },
+        {
+          "name": "Chyulu Wilderness Camp",
+          "description": "Authentic safari camp experience",
+          "priceRange": "KSH 15,000-35,000/night"
+        }
+      ]
+    }
+  ]
+}

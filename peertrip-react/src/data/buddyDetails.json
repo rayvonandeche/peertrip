@@ -1,0 +1,403 @@
+{
+  "buddies": [
+    {
+      "id": 1,
+      "name": "James Mwangi",
+      "title": "Verified Local Guide",
+      "location": "Nairobi",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "coverPhoto": "/assets/nairobi city skyline.png",
+      "interests": ["Safari Expert", "Photography", "Culture"],
+      "bio": "Born and raised in Nairobi, I've spent the last 15 years exploring every corner of Kenya. With a degree in Wildlife Management and certification as a professional photographer, I specialize in safari experiences that combine wildlife viewing with amazing photo opportunities. As a Kikuyu, I'm passionate about sharing authentic cultural experiences with visitors. Whether you're looking to spot the Big Five or capture the perfect sunset over the savannah, I can help create an unforgettable adventure.",
+      "languages": ["English", "Swahili", "Kikuyu"],
+      "experience": "15+ years as a safari guide",
+      "rating": 4.9,
+      "reviewCount": 847,
+      "specialties": [
+        "Wildlife photography safaris",
+        "Cultural immersion experiences",
+        "Custom Nairobi city tours",
+        "Multi-day safari itineraries"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Ultimate Kenya Photo Safari",
+          "description": "10-day photography adventure through Kenya's best national parks",
+          "price": "From KSH 180,000 per person",
+          "image": "/assets/kenya safari.jpeg"
+        },
+        {
+          "title": "Cultural Heritage Tour",
+          "description": "3-day immersion in Kikuyu traditions and modern Kenyan culture",
+          "price": "From KSH 45,000 per person",
+          "image": "/assets/culture.jpeg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Sarah K.",
+          "text": "James made our safari dreams come true! His knowledge of wildlife behavior helped us capture amazing photos we could have never gotten on our own.",
+          "rating": 5
+        },
+        {
+          "name": "Michael T.",
+          "text": "Beyond his expertise as a guide, James shared genuine insights into Kenyan culture that made our trip so much more meaningful.",
+          "rating": 5
+        }
+      ],
+      "availability": "Available for bookings year-round, best to contact 2-3 months in advance"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Wanjiku",
+      "title": "Beach Specialist",
+      "location": "Mombasa",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b1c3?w=150&h=150&fit=crop&crop=face",
+      "coverPhoto": "/assets/diani beach.png",
+      "interests": ["Diving", "Local Food", "History"],
+      "bio": "Growing up on the Kenyan coast gave me an intimate connection with the ocean. As a certified diving instructor with over 10 years of experience, I know all the hidden underwater gems along our coastline. My background in marine biology helps me educate visitors about our fragile coral ecosystems while ensuring responsible tourism. Beyond diving, I'm passionate about Swahili cuisine and coastal history, offering authentic experiences from traditional cooking classes to historical tours of sites like Fort Jesus and the old towns of Mombasa and Lamu.",
+      "languages": ["English", "Swahili", "German"],
+      "experience": "12+ years in coastal tourism, 10 years as a PADI diving instructor",
+      "rating": 4.8,
+      "reviewCount": 623,
+      "specialties": [
+        "Scuba diving and snorkeling tours",
+        "Swahili cooking workshops",
+        "Historical coastal tours",
+        "Marine conservation experiences"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Underwater Wonders of the Kenyan Coast",
+          "description": "5-day diving adventure exploring coral reefs and marine life",
+          "price": "From KSH 85,000 per person",
+          "image": "/assets/malindi coral reefs.png"
+        },
+        {
+          "title": "Swahili Food & Heritage Experience",
+          "description": "3-day culinary and historical tour of the coast",
+          "price": "From KSH 40,000 per person",
+          "image": "/assets/traditional kenyan cuisine.jpeg"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Thomas L.",
+          "text": "Sarah's knowledge of marine life is incredible. She knew exactly where to find the most beautiful reefs and made sure our diving was both safe and spectacular!",
+          "rating": 5
+        },
+        {
+          "name": "Emma J.",
+          "text": "The cooking class with Sarah was a highlight of our trip. Learning to make authentic Swahili dishes while hearing stories about coastal traditions was unforgettable.",
+          "rating": 4
+        }
+      ],
+      "availability": "Available year-round, best diving conditions January-February and July-October"
+    },
+    {
+      "id": 3,
+      "name": "David Kiprop",
+      "title": "Adventure Guide",
+      "location": "Nakuru",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "coverPhoto": "/assets/rift valley.png",
+      "interests": ["Hiking", "Wildlife", "Camping"],
+      "bio": "Born in the Rift Valley, I grew up exploring Kenya's most challenging terrains. As a certified mountain guide and wilderness first responder, I've led hundreds of expeditions up Mount Kenya and through the rugged landscapes of Hell's Gate and Lake Nakuru National Park. My Kalenjin heritage connects me deeply to Kenya's running tradition—I was a semi-professional runner before becoming a full-time adventure guide. I specialize in creating active experiences that challenge visitors physically while connecting them with Kenya's natural wonders and wildlife in responsible, sustainable ways.",
+      "languages": ["English", "Swahili", "Kalenjin"],
+      "experience": "18 years guiding adventure expeditions throughout Kenya",
+      "rating": 4.7,
+      "reviewCount": 412,
+      "specialties": [
+        "Mount Kenya trekking expeditions",
+        "Rift Valley hiking adventures",
+        "Wildlife camping safaris",
+        "Running tours with local athletes"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Mount Kenya Summit Challenge",
+          "description": "6-day trek to Point Lenana with expert guidance and support",
+          "price": "From KSH 95,000 per person",
+          "image": "/assets/mount kenya.png"
+        },
+        {
+          "title": "Hell's Gate Adventure Weekend",
+          "description": "3-day biking, hiking and camping experience in the dramatic landscapes of Hell's Gate",
+          "price": "From KSH 35,000 per person",
+          "image": "/assets/hells gorges.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "John R.",
+          "text": "David's knowledge of the mountain and encouragement got our entire group to the summit safely. His expertise in high-altitude trekking is outstanding.",
+          "rating": 5
+        },
+        {
+          "name": "Lisa M.",
+          "text": "Our camping safari with David was the perfect balance of adventure and comfort. He knew exactly where to find wildlife while avoiding the tourist crowds.",
+          "rating": 4
+        }
+      ],
+      "availability": "Available for bookings year-round, mountain treks best January-February and July-October"
+    },
+    {
+      "id": 4,
+      "name": "Grace Akinyi",
+      "title": "Cultural Expert",
+      "location": "Kisumu",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "coverPhoto": "/assets/kisumu lakefront.png",
+      "interests": ["Art & Crafts", "Music", "Markets"],
+      "bio": "With roots in Kisumu and a master's degree in African Cultural Studies, I'm passionate about connecting visitors with Kenya's rich artistic heritage. As a practicing artist and musician myself, I've built relationships with artisan communities across the country, from the beadwork masters of the Maasai to the basket weavers of the Luo. My tours focus on authentic cultural exchanges where visitors don't just observe but participate in creative traditions. I've worked with museums throughout East Africa and can provide unique insights into both traditional and contemporary Kenyan arts scenes.",
+      "languages": ["English", "Swahili", "Luo", "French"],
+      "experience": "14 years in cultural tourism and arts education",
+      "rating": 4.9,
+      "reviewCount": 376,
+      "specialties": [
+        "Artisan workshop experiences",
+        "Traditional music and dance programs",
+        "Market tours and ethical shopping guidance",
+        "Contemporary art gallery visits"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Artisans of Kenya Journey",
+          "description": "7-day immersion in Kenya's craft traditions with hands-on workshops",
+          "price": "From KSH 120,000 per person",
+          "image": "/assets/maasai market.jpeg"
+        },
+        {
+          "title": "Rhythms of Lake Victoria",
+          "description": "4-day cultural experience exploring Luo music, dance and lakeside traditions",
+          "price": "From KSH 65,000 per person",
+          "image": "/assets/kisumu lakefront.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Rebecca T.",
+          "text": "Grace opened doors to cultural experiences we could never have found on our own. Learning beadwork directly from Maasai artisans was a highlight of our Kenya trip.",
+          "rating": 5
+        },
+        {
+          "name": "Daniel P.",
+          "text": "The musical experiences Grace arranged were spectacular. Instead of watching performances for tourists, we were welcomed into community gatherings and even invited to participate.",
+          "rating": 5
+        }
+      ],
+      "availability": "Available for bookings year-round, special festival tours available during cultural events"
+    },
+    {
+      "id": 5,
+      "name": "Samuel Kiprotich",
+      "title": "Adventure & Fitness Expert",
+      "location": "Eldoret",
+      "avatar": "/assets/hippo.png",
+      "coverPhoto": "/assets/rift valley.png",
+      "interests": ["Running", "Fitness", "Adventure"],
+      "bio": "Born and raised in Kenya's Rift Valley, I'm a former marathon runner turned adventure guide. I know all the best hiking trails, training routes, and adventure spots in the region. Whether you want to train at altitude like Kenya's elite runners or just enjoy the beautiful landscapes on foot, I can create a personalized experience for all fitness levels. I'm passionate about promoting healthy and active tourism in Kenya beyond just the traditional safari experience.",
+      "languages": ["English", "Swahili", "Kalenjin"],
+      "experience": "8+ years as a fitness coach and adventure guide",
+      "rating": 4.7,
+      "reviewCount": 412,
+      "specialties": [
+        "Runner's training camps",
+        "Rift Valley hiking adventures",
+        "Fitness-focused travel itineraries",
+        "Adventure sports coordination"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Run with Kenyan Champions",
+          "description": "7-day running camp in the footsteps of Olympic champions",
+          "price": "From KSH 95,000 per person",
+          "image": "/assets/rift valley.png"
+        },
+        {
+          "title": "Rift Valley Adventure Tour",
+          "description": "5-day multi-sport adventure including hiking, climbing and water sports",
+          "price": "From KSH 75,000 per person",
+          "image": "/assets/hells gorges.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Jason M.",
+          "text": "Training with Samuel in Kenya was a runner's dream come true. He knows all the best trails and introduced me to local runners who shared invaluable tips.",
+          "rating": 5
+        },
+        {
+          "name": "Lisa T.",
+          "text": "Samuel tailored our hiking experience perfectly to our fitness level, challenging us while making sure we could enjoy the spectacular Rift Valley scenery.",
+          "rating": 4
+        }
+      ],
+      "availability": "Available year-round, best weather for outdoor activities January-February and June-September"
+    },
+    {
+      "id": 6,
+      "name": "Aisha Mohammed",
+      "title": "Coastal Culture Expert",
+      "location": "Lamu",
+      "avatar": "/assets/chetta.png",
+      "coverPhoto": "/assets/lamu old town.png",
+      "interests": ["Culture", "History", "Sailing"],
+      "bio": "Born into a family with deep roots in Lamu, I've dedicated my life to preserving and sharing the rich Swahili heritage of Kenya's coast. With a degree in Cultural Anthropology and years of experience as a cultural guide, I offer authentic insights into our traditions, architecture, cuisine, and maritime history. My specialty is connecting visitors with local artisans, musicians, and families to experience the living culture rather than just observing it as tourists.",
+      "languages": ["English", "Swahili", "Arabic"],
+      "experience": "15+ years as a cultural historian and guide",
+      "rating": 4.9,
+      "reviewCount": 578,
+      "specialties": [
+        "Traditional dhow sailing experiences",
+        "Lamu Old Town historical tours",
+        "Swahili architectural exploration",
+        "Cultural immersion programs"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Secrets of Swahili Coast",
+          "description": "7-day journey through the cultural heritage of Kenya's coast",
+          "price": "From KSH 110,000 per person",
+          "image": "/assets/traditional dhow.png"
+        },
+        {
+          "title": "Lamu Cultural Immersion",
+          "description": "4-day experience living with local families in this UNESCO world heritage site",
+          "price": "From KSH 65,000 per person",
+          "image": "/assets/lamu old town.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Robert J.",
+          "text": "Aisha's knowledge of Swahili history and culture is extraordinary. She introduced us to local families and artisans we would never have met otherwise.",
+          "rating": 5
+        },
+        {
+          "name": "Sophia P.",
+          "text": "Sailing on a traditional dhow with Aisha while learning about maritime traditions was magical. Her connections in Lamu opened doors to authentic experiences.",
+          "rating": 5
+        }
+      ],
+      "availability": "Available year-round, best to avoid the rainy season from April-June"
+    },
+    {
+      "id": 7,
+      "name": "Peter Kariuki",
+      "title": "Wildlife Conservation Specialist",
+      "location": "Nakuru",
+      "avatar": "/assets/prode.png",
+      "coverPhoto": "/assets/rift valley.png",
+      "interests": ["Conservation", "Wildlife", "Research"],
+      "bio": "As a wildlife biologist specializing in flamingo conservation, I've spent over a decade studying and protecting the unique ecosystem of Lake Nakuru. My work combines scientific research with tourism, offering visitors a deeper understanding of Kenya's wildlife conservation challenges and successes. I lead specialized tours that go beyond standard game drives to explore conservation projects, research initiatives, and community-based wildlife protection programs.",
+      "languages": ["English", "Swahili", "German"],
+      "experience": "12+ years in wildlife conservation and research",
+      "rating": 4.8,
+      "reviewCount": 342,
+      "specialties": [
+        "Bird watching expeditions",
+        "Conservation-focused safaris",
+        "Research participation experiences",
+        "Wildlife photography workshops"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Lake Nakuru Conservation Experience",
+          "description": "5-day immersion in flamingo research and conservation",
+          "price": "From KSH 85,000 per person",
+          "image": "/assets/rift valley.png"
+        },
+        {
+          "title": "Kenyan Conservation Circuit",
+          "description": "10-day tour of multiple conservation projects across Kenya",
+          "price": "From KSH 175,000 per person",
+          "image": "/assets/rhino.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Margaret H.",
+          "text": "Peter's scientific knowledge added tremendous depth to our safari experience. We learned so much about ecology and conservation while enjoying amazing wildlife sightings.",
+          "rating": 5
+        },
+        {
+          "name": "William T.",
+          "text": "Participating in actual conservation work under Peter's guidance was a highlight of our trip. His passion for wildlife protection is inspiring.",
+          "rating": 5
+        }
+      ],
+      "availability": "Available year-round with limited availability during research seasons"
+    },
+    {
+      "id": 8,
+      "name": "Catherine Muthoni",
+      "title": "Mountain & Conservation Guide",
+      "location": "Nairobi",
+      "avatar": "/assets/prode.png",
+      "coverPhoto": "/assets/mount kenya.png",
+      "interests": ["UX", "Mountains", "Conservation"],
+      "bio": "With a unique background in UX design and environmental conservation, I offer tech-savvy travelers a specialized experience in Kenya. As an avid mountain trekker who has summited Mount Kenya multiple times, I combine adventure tourism with digital storytelling. My tours include not only guided mountain experiences but also workshops on travel photography, social media content creation, and documenting conservation stories. Based in Nairobi but guiding throughout Kenya's highlands.",
+      "languages": ["English", "Swahili", "French"],
+      "experience": "7+ years in mountain guiding and 5+ years in UX design",
+      "rating": 4.7,
+      "reviewCount": 285,
+      "specialties": [
+        "Mountain trekking expeditions",
+        "Conservation volunteering coordination",
+        "Travel content creation workshops",
+        "Tech-integrated outdoor adventures"
+      ],
+      "featuredTrips": [
+        {
+          "title": "Mount Kenya Tech Trek",
+          "description": "6-day climbing adventure with digital storytelling workshops",
+          "price": "From KSH 95,000 per person",
+          "image": "/assets/mount kenya.png"
+        },
+        {
+          "title": "Conservation Tech Immersion",
+          "description": "4-day experience learning about tech solutions in wildlife conservation",
+          "price": "From KSH 65,000 per person",
+          "image": "/assets/elephant.png"
+        }
+      ],
+      "testimonials": [
+        {
+          "name": "Alex R.",
+          "text": "Catherine's guidance on Mount Kenya was exceptional. Her knowledge of both the mountain environment and how to capture it digitally made for an unforgettable experience.",
+          "rating": 5
+        },
+        {
+          "name": "Isabella M.",
+          "text": "The combination of outdoor adventure and tech workshops was perfect for our group. Catherine understood exactly what modern travelers want from an experience.",
+          "rating": 4
+        }
+      ],
+      "availability": "Available year-round, mountain climbing best January-February and July-October"
+    },
+    {
+      "id": 9,
+      "name": "Join Our Community",
+      "title": "Become a Travel Buddy",
+      "location": "Kenya",
+      "avatar": "/assets/placeholder.jpeg",
+      "coverPhoto": "/assets/nairobi city skyline.png",
+      "interests": ["New Member", "Community", "Adventure"],
+      "bio": "At PeerTrip, we're building a community of passionate locals and travelers who share authentic experiences across Kenya. By becoming a verified travel buddy, you can share your knowledge, meet interesting people from around the world, and even create a new income stream. Our platform connects visitors with locals who can provide unique insights and experiences beyond the standard tourist offerings.",
+      "languages": ["All welcome"],
+      "experience": "No prior experience needed - just passion for sharing your knowledge",
+      "rating": 0,
+      "reviewCount": 0,
+      "specialties": [
+        "Share your local knowledge",
+        "Create custom experiences",
+        "Meet travelers from around the world",
+        "Earn income sharing what you love"
+      ],
+      "featuredTrips": [],
+      "testimonials": [],
+      "availability": "Join today"
+    }
+  ]
+}

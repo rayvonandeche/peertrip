@@ -1,0 +1,289 @@
+{
+  "hero": {
+    "title": "Discover Kenya",
+    "subtitle": "Explore the beauty and diversity of Kenya with authentic local experiences",
+    "searchPlaceholder": "Where do you want to go in Kenya?"
+  },
+  "quickFilters": [
+    { "id": 1, "icon": "fas fa-mountain", "text": "National Parks" },
+    { "id": 2, "icon": "fas fa-umbrella-beach", "text": "Beaches" },
+    { "id": 3, "icon": "fas fa-city", "text": "Cities" },
+    { "id": 4, "icon": "fas fa-hiking", "text": "Adventure" },
+    { "id": 5, "icon": "fas fa-utensils", "text": "Food Tours" },
+    { "id": 6, "icon": "fas fa-camera", "text": "Photography" }
+  ],
+  "featuredDestinations": [
+    {
+      "id": 1,
+      "name": "Maasai Mara National Reserve",
+      "image": "/assets/masaai village.png",
+      "badge": "Most Popular",
+      "description": "World-famous for the Great Migration and Big Five wildlife viewing",
+      "highlights": ["Big Five", "Migration", "Safari"],
+      "rating": 4.8,
+      "reviews": 2847,
+      "price": 18500,
+      "period": "day",
+      "buttonText": "View Details & Book"
+    },
+    {
+      "id": 2,
+      "name": "Diani Beach",
+      "image": "/assets/diani beach.png",
+      "badge": "Beach Paradise",
+      "description": "Pristine white sand beaches with crystal clear waters and water sports",
+      "highlights": ["Beach", "Water Sports", "Relaxation"],
+      "rating": 4.7,
+      "reviews": 1923,
+      "price": 12000,
+      "period": "day"
+    },
+    {
+      "id": 3,
+      "name": "Amboseli National Park",
+      "image": "/assets/elephant.png",
+      "badge": "Elephant Paradise",
+      "description": "Spectacular views of Mount Kilimanjaro and large elephant herds",
+      "highlights": ["Elephants", "Mt. Kilimanjaro", "Photography"],
+      "rating": 4.6,
+      "reviews": 1456,
+      "price": 16200,
+      "period": "day"
+    },
+    {
+      "id": 4,
+      "name": "Lamu Old Town",
+      "image": "/assets/lamu old town.png",
+      "badge": "UNESCO Site",
+      "description": "Historic Swahili architecture and traditional dhow sailing",
+      "highlights": ["Culture", "History", "Dhows"],
+      "rating": 4.5,
+      "reviews": 987,
+      "price": 9500,
+      "period": "day"
+    },
+    {
+      "id": 5,
+      "name": "Mount Kenya",
+      "image": "/assets/mount kenya.png",
+      "badge": "Adventure",
+      "description": "Africa's second highest peak with diverse ecosystems and trekking routes",
+      "highlights": ["Hiking", "Mountain", "Adventure"],
+      "rating": 4.4,
+      "reviews": 743,
+      "price": 15000,
+      "period": "day"
+    },
+    {
+      "id": 6,
+      "name": "Lake Nakuru National Park",
+      "image": "/assets/rift valley.png",
+      "badge": "Bird Paradise",
+      "description": "Famous for flamingos, rhinos, and diverse bird species",
+      "highlights": ["Birds", "Flamingos", "Rhinos"],
+      "rating": 4.3,
+      "reviews": 892,
+      "price": 11800,
+      "period": "day"
+    },
+    {
+      "id": 7,
+      "name": "Kenya's Wildlife",
+      "image": "/assets/wild animals.jpeg",
+      "badge": "Wildlife",
+      "description": "Home to the \"Big Five\" and countless other species.",
+      "highlights": ["Safari", "Nature", "Photography"],
+      "rating": 4.9,
+      "reviews": 3000,
+      "price": 20000,
+      "period": "day"
+    },
+    {
+      "id": 8,
+      "name": "Nairobi City",
+      "image": "/assets/nairobi city skyline.png",
+      "badge": "City Life",
+      "description": "The vibrant capital with a unique blend of urban and natural attractions.",
+      "highlights": ["Urban", "Culture", "National Park"],
+      "rating": 4.5,
+      "reviews": 1500,
+      "price": 8000,
+      "period": "day"
+    },
+    {
+      "id": 9,
+      "name": "Karura Forest",
+      "image": "/assets/karura waterfall.png",
+      "badge": "Nature Escape",
+      "description": "An urban forest in Nairobi with waterfalls, caves, and cycling trails.",
+      "highlights": ["Forest", "Hiking", "Cycling"],
+      "rating": 4.6,
+      "reviews": 950,
+      "price": 1000,
+      "period": "entry"
+    },
+    {
+      "id": 10,
+      "name": "Unique Tree Houses",
+      "image": "/assets/tree house.jpeg",
+      "badge": "Unique Stay",
+      "description": "Experience Kenya from a unique perspective in a luxury tree house.",
+      "highlights": ["Luxury", "Nature", "Romantic"],
+      "rating": 4.8,
+      "reviews": 600,
+      "price": 25000,
+      "period": "night"
+    },
+    {
+      "id": 11,
+      "name": "Kenyan Culinary Journey",
+      "image": "/assets/traditional kenyan cuisine.jpeg",
+      "badge": "Food Safari",
+      "description": "Explore the rich flavors of traditional Kenyan food.",
+      "highlights": ["Food", "Culture", "Local"],
+      "rating": 4.7,
+      "reviews": 750,
+      "price": 5000,
+      "period": "tour"
+    },
+    {
+      "id": 12,
+      "name": "Classic Safari Experience",
+      "image": "/assets/safari vehicle.jpeg",
+      "badge": "Adventure Ride",
+      "description": "Embark on an adventure in a traditional open-roof safari vehicle.",
+      "highlights": ["Safari", "Adventure", "Wildlife"],
+      "rating": 4.9,
+      "reviews": 1200,
+      "price": 15000,
+      "period": "day"
+    },
+    {
+      "id": 13,
+      "name": "Maasai Market",
+      "image": "/assets/maasai market.jpeg",
+      "badge": "Cultural Shopping",
+      "description": "Vibrant open-air market with traditional crafts and souvenirs.",
+      "highlights": ["Culture", "Shopping", "Souvenirs"],
+      "rating": 4.4,
+      "reviews": 850,
+      "price": "Varies",
+      "period": ""
+    },
+    {
+      "id": 14,
+      "name": "Karen Blixen Museum",
+      "image": "/assets/karen blixen.jpeg",
+      "badge": "Historical Site",
+      "description": "Former home of the \"Out of Africa\" author, offering a glimpse into colonial history.",
+      "highlights": ["History", "Culture", "Museum"],
+      "rating": 4.5,
+      "reviews": 700,
+      "price": 1200,
+      "period": "entry"
+    },
+    {
+      "id": 15,
+      "name": "Scenic Hiking Trails",
+      "image": "/assets/hiking.jpeg",
+      "badge": "Active Adventure",
+      "description": "Explore Kenya's diverse landscapes on foot, from mountains to valleys.",
+      "highlights": ["Hiking", "Nature", "Adventure"],
+      "rating": 4.7,
+      "reviews": 900,
+      "price": "Varies",
+      "period": "trail"
+    },
+    {
+      "id": 16,
+      "name": "Chyulu Hills National Park",
+      "image": "/assets/chyulu hills.png",
+      "badge": "Hidden Gem",
+      "description": "Explore the rolling green hills and volcanic landscapes of this lesser-known park.",
+      "highlights": ["Volcanic Landscapes", "Rolling Hills", "Lava Tubes"],
+      "rating": 4.5,
+      "reviews": 320,
+      "price": 8000,
+      "period": "day"
+    },
+    {
+      "id": 17,
+      "name": "Fort Jesus, Mombasa",
+      "image": "/assets/fort jesus.png",
+      "badge": "UNESCO Site",
+      "description": "Step back in time at this historic Portuguese fort and UNESCO World Heritage Site.",
+      "highlights": ["History", "UNESCO", "Culture"],
+      "rating": 4.8,
+      "reviews": 1200,
+      "price": 1200,
+      "period": "entry"
+    },
+    {
+      "id": 18,
+      "name": "Hell's Gate National Park",
+      "image": "/assets/hells gorges.png",
+      "badge": "Adventure",
+      "description": "Walk among towering cliffs and explore dramatic gorges on foot in this unique park.",
+      "highlights": ["Walking Safari", "Gorges", "Rock Climbing"],
+      "rating": 4.6,
+      "reviews": 650,
+      "price": 2500,
+      "period": "entry"
+    },
+    {
+      "id": 19,
+      "name": "Traditional Kenyan Cultural Experience",
+      "image": "/assets/culture.jpeg",
+      "badge": "Cultural Heritage",
+      "description": "Immerse yourself in authentic Kenyan traditions, dance, music, and storytelling.",
+      "highlights": ["Culture", "Traditional Dance", "Music"],
+      "rating": 4.9,
+      "reviews": 800,
+      "price": 3500,
+      "period": "person"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "icon": "fas fa-paw",
+      "title": "Wildlife Safari",
+      "description": "Experience the Big Five and witness the Great Migration in world-renowned national parks"
+    },
+    {
+      "id": 2,
+      "icon": "fas fa-umbrella-beach",
+      "title": "Coastal Adventures",
+      "description": "Relax on pristine beaches, enjoy water sports, and explore marine national parks"
+    },
+    {
+      "id": 3,
+      "icon": "fas fa-mountain",
+      "title": "Mountain Trekking",
+      "description": "Conquer peaks like Mount Kenya and explore scenic highland landscapes"
+    },
+    {
+      "id": 4,
+      "icon": "fas fa-masks-theater",
+      "title": "Cultural Heritage",
+      "description": "Immerse yourself in traditional Maasai culture and Swahili coastal heritage"
+    },
+    {
+      "id": 5,
+      "icon": "fas fa-utensils",
+      "title": "Culinary Tours",
+      "description": "Taste authentic Kenyan cuisine and learn traditional cooking methods"
+    },
+    {
+      "id": 6,
+      "icon": "fas fa-city",
+      "title": "Urban Exploration",
+      "description": "Discover vibrant cities like Nairobi and Mombasa with their modern attractions"
+    }
+  ],
+  "aiAssistant": {
+    "href": "/ai-assistant",
+    "title": "Chat with Peer Ai",
+    "icon": "fas fa-robot"
+  }
+}
