@@ -1,4 +1,4 @@
-const mysql = require('mysql2/promise');
+import { createPool, createConnection } from 'mysql2/promise';
 
 // Database configuration
 const dbConfig = {
@@ -12,13 +12,13 @@ const dbConfig = {
 };
 
 // Create connection pool
-const pool = mysql.createPool(dbConfig);
+const pool = createPool(dbConfig);
 
 // Database initialization
 async function initializeDatabase() {
   try {
     // First, create the database if it doesn't exist
-    const tempConnection = await mysql.createConnection({
+    const tempConnection = await createConnection({
       host: dbConfig.host,
       user: dbConfig.user,
       password: dbConfig.password
@@ -334,4 +334,4 @@ const db = {
   }
 };
 
-module.exports = { initializeDatabase, db };
+export default { initializeDatabase, db };
