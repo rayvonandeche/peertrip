@@ -12,6 +12,8 @@ const BuddyDetail = () => {
   const [buddy, setBuddy] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('about');
+  const [showMsgModal, setShowMsgModal] = useState(false);
+  const [messageText, setMessageText] = useState('');
 
   useEffect(() => {
     // Find the buddy with matching ID
@@ -167,7 +169,7 @@ const BuddyDetail = () => {
         </div>
         
         <div className="buddy-profile-actions">
-          <button className="btn message-btn">
+          <button className="btn message-btn" onClick={() => setShowMsgModal(true)}>
             <i className="fas fa-comment"></i> Message
           </button>
           <button className="btn connect-btn">
@@ -178,6 +180,29 @@ const BuddyDetail = () => {
           </button>
         </div>
       </div>
+
+      {showMsgModal && (
+        <div className="modal-overlay">
+          <div className="modal">
+            <button className="close-modal" onClick={() => setShowMsgModal(false)}>&times;</button>
+            <h2>Message {buddy.name}</h2>
+            <textarea
+              value={messageText}
+              onChange={(e) => setMessageText(e.target.value)}
+              placeholder="Type your message..."
+              rows={4}
+              style={{ width: '100%', padding: '0.5rem', margin: '1rem 0' }}
+            />
+            <button className="btn send-btn" onClick={() => {
+              console.log('Sending message to', buddy.id, messageText);
+              setShowMsgModal(false);
+              setMessageText('');
+            }}>
+              Send
+            </button>
+          </div>
+        </div>
+      )}
 
       <AIAssistantFab aiAssistant={{
         href: "/ai-assistant",

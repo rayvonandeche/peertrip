@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import destinationsData from '../data/destinations.json';
 import Navbar from '../components/common/Navbar';
 import HeroSection from '../components/common/HeroSection';
@@ -12,6 +13,9 @@ import AIAssistantFab from '../components/common/AIAssistantFab';
 import './../styles.css';
 
 const Discover = () => {
+  const { search } = useLocation();
+  const params = new URLSearchParams(search);
+  const initialSearch = params.get('search') || '';
   const [signInModal, setSignInModal] = useState(false);
   const [signUpModal, setSignUpModal] = useState(false);
 
@@ -47,6 +51,7 @@ const Discover = () => {
         <SearchableDestinations 
           destinations={destinationsData.featuredDestinations}
           title="Featured Destinations in Kenya"
+          initialSearchTerm={initialSearch}
         />
 
         <Section title="Explore by Experience">

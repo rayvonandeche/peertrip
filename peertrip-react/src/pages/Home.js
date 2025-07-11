@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/common/Navbar';
 import Footer from '../components/common/Footer';
@@ -12,6 +11,7 @@ import buddyDetailsData from '../data/buddyDetails.json';
 
 const Home = () => {
   const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState('');
   
   // Extract featured destinations from data
   const featuredDestinations = destinationDetailsData.destinations.slice(0, 6);
@@ -32,8 +32,19 @@ const Home = () => {
           <h1>Explore Kenya Like a Local</h1>
           <p>Join 450K+ travelers discovering amazing experiences with verified reviews, local buddies, and AI-powered planning</p>
           <div className="search-container">
-            <input type="text" placeholder="Where to in Kenya? Nairobi, Mombasa, Maasai Mara, Nakuru..." />
-            <button className="search-btn"><i className="fas fa-search"></i> Search</button>
+            <input
+              type="text"
+              placeholder="Where to in Kenya? Nairobi, Mombasa, Maasai Mara, Nakuru..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && navigate(`/discover?search=${encodeURIComponent(searchTerm)}`)}
+            />
+            <button
+              className="search-btn"
+              onClick={() => navigate(`/discover?search=${encodeURIComponent(searchTerm)}`)}
+            >
+              <i className="fas fa-search"></i> Search
+            </button>
           </div>
         </div>
       </section>

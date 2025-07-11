@@ -36,14 +36,14 @@ const Navbar = ({ activeRoute = '' }) => {
           <div className="auth-buttons">
             {user ? (
               <div className="user-menu">
-                <div className="user-info">
+                <Link to="/profile" className="user-info">
                   <img 
                     src={user.avatar || 'https://via.placeholder.com/32'} 
                     alt={user.name} 
                     className="user-avatar"
                   />
-                  <span className="user-name">{user.name}</span>
-                </div>
+                </Link>
+                <span className="user-name">{user.name}</span>
                 <button className="btn logout-btn" onClick={signOut}>
                   Sign Out
                 </button>

@@ -3,8 +3,8 @@ import Section from './Section';
 import Grid from './Grid';
 import DestinationCard from './DestinationCard';
 
-const SearchableDestinations = ({ destinations, title = "Featured Destinations in Kenya" }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+const SearchableDestinations = ({ destinations, title = "Featured Destinations in Kenya", initialSearchTerm = '' }) => {
+  const [searchTerm, setSearchTerm] = useState(initialSearchTerm);
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   // Filter destinations based on search term and category
