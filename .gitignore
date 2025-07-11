@@ -1,5 +1,6 @@
 .idea/
 .vscode/
 peertrip-backend/node_modules/
-peertrip-react/node_modules/    
+peertrip-react/node_modules/  
 
+peertrip-backup.tar.gz

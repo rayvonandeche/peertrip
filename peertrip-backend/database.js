@@ -1,4 +1,8 @@
 import { createPool, createConnection } from 'mysql2/promise';
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
 
 // Database configuration
 const dbConfig = {
@@ -120,56 +124,6 @@ async function createTables() {
     }
   }
   
-  // Insert sample data
-  await insertSampleData();
-}
-
-// Insert sample data for testing
-async function insertSampleData() {
-  try {
-    // Check if demo user already exists
-    const [existingUsers] = await pool.execute(
-      'SELECT id FROM users WHERE email = ?',
-      ['demo@peertrip.com']
-    );
-    
-    if (existingUsers.length === 0) {
-      // Insert demo users
-      const demoUsers = [
-        {
-          email: 'demo@peertrip.com',
-          password: '$2a$10$J6rUJJTib3vcrzHhrtBuVutj8pkhJtaiUAN9YNk0RIf/iuBWmHp1e', // demo123
-          name: 'Demo User',
-          location: 'Nairobi, Kenya',
-          travel_style: 'Adventure',
-          budget_range: '$500-$1000',
-          preferred_activities: 'Safari, Hiking, Cultural Tours',
-          interests: 'Wildlife, Photography, Local Cuisine'
-        },
-        {
-          email: 'john@example.com',
-          password: '$2a$10$J6rUJJTib3vcrzHhrtBuVutj8pkhJtaiUAN9YNk0RIf/iuBWmHp1e', // password123
-          name: 'John Doe',
-          location: 'Mombasa, Kenya',
-          travel_style: 'Relaxation',
-          budget_range: '$300-$700',
-          preferred_activities: 'Beach, Diving, Sailing',
-          interests: 'Marine Life, History, Architecture'
-        }
-      ];
-      
-      for (const user of demoUsers) {
-        await pool.execute(
-          'INSERT INTO users (email, password, name, location, travel_style, budget_range, preferred_activities, interests) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-          [user.email, user.password, user.name, user.location, user.travel_style, user.budget_range, user.preferred_activities, user.interests]
-        );
-      }
-      
-      console.log('Sample users inserted successfully');
-    }
-  } catch (error) {
-    console.error('Error inserting sample data:', error);
-  }
 }
 
 // Database query helpers

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import destinationsData from '../data/destinations.json';
+import diversification from '../data/diversification.json';
 import Navbar from '../components/common/Navbar';
 import HeroSection from '../components/common/HeroSection';
 import Section from '../components/common/Section';
@@ -10,6 +11,7 @@ import CategoryCard from '../components/common/CategoryCard';
 import Footer from '../components/common/Footer';
 import Modal from '../components/common/Modal';
 import AIAssistantFab from '../components/common/AIAssistantFab';
+import ServiceCard from '../components/common/ServiceCard';
 import './../styles.css';
 
 const Discover = () => {
@@ -63,6 +65,14 @@ const Discover = () => {
               />
             ))}
           </Grid>
+        </Section>
+
+        <Section title="Explore Our Services">
+          <div className="services-grid">
+            {diversification.services.map(service => (
+              <ServiceCard key={service.id} service={service} />
+            ))}
+          </div>
         </Section>
       </main>
 

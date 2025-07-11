@@ -1,10 +1,14 @@
 import express, { json } from 'express';
 import cors from 'cors';
-import { hash, compare } from 'bcryptjs';
-import { verify, sign } from 'jsonwebtoken';
-import { initializeDatabase, db } from './database';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import database from './database.js';
+import dotenv from 'dotenv';
 
-require('dotenv').config();
+dotenv.config();
+const { hash, compare } = bcrypt;
+const { initializeDatabase, db } = database;
+const { verify, sign } = jwt;
 
 const app = express();
 const PORT = process.env.PORT || 5000;

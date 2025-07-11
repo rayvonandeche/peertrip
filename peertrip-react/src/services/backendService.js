@@ -87,6 +87,11 @@ class BackendService {
     });
   }
 
+  // Alias for Profile method to match getUserProfile calls
+  async getUserProfile() {
+    return await this.getProfile();
+  }
+
   // Destinations methods
   async getDestinations() {
     return await this.apiCall('/destinations');

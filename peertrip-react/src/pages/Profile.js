@@ -6,6 +6,7 @@ import Footer from '../components/common/Footer';
 import AIAssistantFab from '../components/common/AIAssistantFab';
 import backendService from '../services/backendService';
 import './../styles.css';
+import './Profile.css';
 
 const Profile = () => {
   const { user, logout } = useAuth();

@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Restaurants",
+      "image": "https://source.unsplash.com/collection/483251/400x300",
+      "description": "Discover top local Kenyan cuisine and dining experiences."
+    },
+    {
+      "id": 2,
+      "title": "Accommodation",
+      "image": "https://source.unsplash.com/collection/3178572/400x300",
+      "description": "Find cozy lodges, luxury hotels, and unique stays."
+    },
+    {
+      "id": 3,
+      "title": "Transport",
+      "image": "https://source.unsplash.com/collection/190727/400x300",
+      "description": "Book reliable transfers, car hires, and local transport."
+    },
+    {
+      "id": 4,
+      "title": "Activities",
+      "image": "https://source.unsplash.com/collection/888146/400x300",
+      "description": "Engage in guided tours, safaris, and cultural activities."
+    },
+    {
+      "id": 5,
+      "title": "Packages",
+      "image": "https://source.unsplash.com/collection/484351/400x300",
+      "description": "Choose curated trip packages for hassle-free planning."
+    }
+  ]
+}

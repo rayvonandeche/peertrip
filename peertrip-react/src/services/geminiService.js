@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import backendService from './backendService';
+import backendService from "./backendService";
 
 class GeminiService {
   constructor() {
@@ -41,32 +41,43 @@ Always provide helpful, accurate, and enthusiastic responses about Kenya. If use
           const contextResult = await backendService.getAIContext();
           if (contextResult.success) {
             const { userContext, recentBookings, chatHistory: pastChats } = contextResult.data;
-            
+
             enhancedUserContext = `\n\nUser Profile:
 - Name: ${userContext.name}
-- Location: ${userContext.location || 'Not specified'}
-- Member since: ${userContext.join_date?.split('T')[0] || 'Recently joined'}
-- Travel Style: ${userContext.travel_style || 'Not specified'}
-- Budget Range: ${userContext.budget_range || 'Not specified'}
-- Preferred Activities: ${userContext.preferred_activities || 'Not specified'}
-- Interests: ${userContext.interests || 'Not specified'}
+- Location: ${userContext.location || "Not specified"}
+- Member since: ${userContext.join_date?.split("T")[0] || "Recently joined"}
+- Travel Style: ${userContext.travel_style || "Not specified"}
+- Budget Range: ${userContext.budget_range || "Not specified"}
+- Preferred Activities: ${userContext.preferred_activities || "Not specified"}
+- Interests: ${userContext.interests || "Not specified"}
 
 Recent Bookings:
-${recentBookings.length > 0 
-  ? recentBookings.map(booking => `- ${booking.name} (${booking.category}) on ${booking.start_date}`).join('\n')
-  : '- No recent bookings'}
+${
+  recentBookings.length > 0
+    ? recentBookings.map((booking) => `- ${booking.name} (${booking.category}) on ${booking.start_date}`).join("\n")
+    : "- No recent bookings"
+}
 
 Recent Chat Context:
-${pastChats.length > 0 
-  ? pastChats.slice(-3).map(chat => `User: ${chat.message}\nPeer AI: ${chat.response}`).join('\n')
-  : '- No previous conversations'}
+${
+  pastChats.length > 0
+    ? pastChats
+        .slice(-3)
+        .map((chat) => `User: ${chat.message}\nPeer AI: ${chat.response}`)
+        .join("\n")
+    : "- No previous conversations"
+}
 
 Provide personalized recommendations based on this context while keeping focus on Kenya travel.`;
           }
         } catch (error) {
-          console.error('Failed to get AI context:', error);
+          console.error("Failed to get AI context:", error);
           // Fallback to basic user context
-          enhancedUserContext = `\n\nUser Information:\n- Name: ${user.name}\n- Location: ${user.location || 'Not specified'}\n- Member since: ${user.joinDate || 'Recently joined'}\n\nPersonalize your responses when appropriate, but keep them focused on Kenya travel.`;
+          enhancedUserContext = `\n\nUser Information:\n- Name: ${user.name}\n- Location: ${
+            user.location || "Not specified"
+          }\n- Member since: ${
+            user.joinDate || "Recently joined"
+          }\n\nPersonalize your responses when appropriate, but keep them focused on Kenya travel.`;
         }
       }
 
@@ -87,7 +98,7 @@ Provide personalized recommendations based on this context while keeping focus o
         try {
           await backendService.saveChatHistory(message, text);
         } catch (error) {
-          console.error('Failed to save chat history:', error);
+          console.error("Failed to save chat history:", error);
           // Don't fail the chat if saving fails
         }
       }
