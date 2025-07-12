@@ -6,7 +6,7 @@ import AIAssistantFab from '../components/common/AIAssistantFab';
 import SearchableDestinations from '../components/common/SearchableDestinations';
 import destinationsData from '../data/destinations.json';
 import './../styles.css';
-
+// Importing styles for the Category Detail page
 const CategoryDetail = () => {
   const { id } = useParams();
   const location = useLocation();

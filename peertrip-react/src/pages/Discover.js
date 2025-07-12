@@ -25,13 +25,13 @@ const Discover = () => {
   const openSignUp = () => setSignUpModal(true);
   const closeSignIn = () => setSignInModal(false);
   const closeSignUp = () => setSignUpModal(false);
-  
+  // Switch between sign in and sign up modals
   const switchToSignUp = (e) => {
     e.preventDefault();
     setSignInModal(false);
     setSignUpModal(true);
   };
-  
+  // Switch to sign in modal from sign up
   const switchToSignIn = (e) => {
     e.preventDefault();
     setSignUpModal(false);

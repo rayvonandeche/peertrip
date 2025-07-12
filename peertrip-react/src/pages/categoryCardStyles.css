@@ -27,7 +27,7 @@
   transform-origin: left;
   transition: transform 0.3s ease;
 }
-
+/* Animate the bottom border on hover */
 .category-card:hover:before {
   transform: scaleX(1);
 }

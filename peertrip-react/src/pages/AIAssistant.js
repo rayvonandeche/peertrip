@@ -6,7 +6,7 @@ import Footer from '../components/common/Footer';
 import { useAuth } from '../contexts/AuthContext';
 import geminiService from '../services/geminiService';
 import './AIAssistant.css';
-
+// Importing styles for the AI Assistant page
 const AIAssistant = () => {
   const { user } = useAuth();
   
