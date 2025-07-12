@@ -36,7 +36,7 @@ const AIAssistant = () => {
     setInput('');
     // send to backend to save
     await backendService.saveChatHistory(context.userContext.id, input, '');
-    // here, ideally get AI response from external service
+    // here, ideally you get AI response from external service
     const fakeResponse = 'Let me take care of that for you.';
     setMessages(msgs => [...msgs, { role: 'assistant', text: fakeResponse }]);
   };
